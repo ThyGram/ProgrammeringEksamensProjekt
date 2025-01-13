@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Willi\\source\\repos\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {}
+    "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Willi\\source\\repos\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {
+    "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Willi\\source\\repos\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
+        "projectUniqueName": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
         "projectName": "ComputerPartShop",
-        "projectPath": "C:\\Users\\Willi\\source\\repos\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
+        "projectPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
         "packagesPath": "C:\\Users\\Willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Willi\\source\\repos\\ComputerPartShop\\ComputerPartShop\\obj\\",
+        "outputPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
