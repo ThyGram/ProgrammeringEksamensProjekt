@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\data\\computerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\computerpartshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\computerpartshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\data\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\data\\entities\\partproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\computerpartshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\computerpartshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,20 +46,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ComputerPartShop",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
               "RelativeDocumentMoniker": "ComputerPartShop\\ComputerPartShop.csproj",
-              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj*",
-              "RelativeToolTip": "ComputerPartShop\\ComputerPartShop.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
+              "RelativeToolTip": "ComputerPartShop\\ComputerPartShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-13T09:46:46.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\appsettings.json",
               "RelativeDocumentMoniker": "ComputerPartShop\\appsettings.json",
@@ -76,9 +76,9 @@
               "Title": "ComputerDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\ComputerDbContext.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Data\\ComputerDbContext.cs",
-              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\ComputerDbContext.cs*",
-              "RelativeToolTip": "ComputerPartShop\\Data\\ComputerDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\ComputerDbContext.cs",
+              "RelativeToolTip": "ComputerPartShop\\Data\\ComputerDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T09:09:05.74Z",
               "EditorCaption": ""
@@ -111,12 +111,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Data\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\Entities\\Order.cs*",
-              "RelativeToolTip": "ComputerPartShop\\Data\\Entities\\Order.cs*",
+              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\Entities\\Order.cs",
+              "RelativeToolTip": "ComputerPartShop\\Data\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T08:57:30.742Z",
@@ -141,13 +141,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Program.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Program.cs",
               "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Program.cs",
               "RelativeToolTip": "ComputerPartShop\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T08:10:11.619Z",
               "EditorCaption": ""
