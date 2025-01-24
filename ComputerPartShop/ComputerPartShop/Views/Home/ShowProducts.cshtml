@@ -1,5 +1,12 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<Product>
+
+<h1>THE AMOUNT OF PRODUCTS I GOT: @Model.Count</h1>
+
+<ul>
+    @foreach(Product item in Model) 
+    {
+        <li>
+            <p>@item.Name   @item.Cost</p>
+        </li>
+    }
+</ul>

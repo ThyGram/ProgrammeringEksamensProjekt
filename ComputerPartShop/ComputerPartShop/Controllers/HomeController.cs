@@ -1,4 +1,5 @@
 using ComputerPartShop.Data;
+using ComputerPartShop.Data.Entities;
 using ComputerPartShop.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -33,7 +34,19 @@ namespace ComputerPartShop.Controllers
 
         public IActionResult ShowProducts() 
         {
-            var result = _context.Products.;
+            List<Product> result = _context.Products.OrderBy(p => p.Cost).ToList();
+            return View(result);
+        }
+
+        [HttpGet]
+        public IActionResult AddProduct() 
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddProduct(Product product)
+        {
             return View();
         }
 

@@ -14,7 +14,7 @@ namespace ComputerPartShop.Data
         }
 
         public DbSet<Order> Orders { get; set; }
-        public DbSet<PartProduct> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

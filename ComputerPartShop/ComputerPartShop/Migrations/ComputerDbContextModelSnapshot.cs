@@ -17,7 +17,7 @@ namespace ComputerPartShop.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0")
+                .HasAnnotation("ProductVersion", "9.0.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -49,7 +49,7 @@ namespace ComputerPartShop.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PartProductId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -59,12 +59,12 @@ namespace ComputerPartShop.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.HasIndex("PartProductId");
+                    b.HasIndex("ProductId");
 
                     b.ToTable("OrderProduct");
                 });
 
-            modelBuilder.Entity("ComputerPartShop.Data.Entities.PartProduct", b =>
+            modelBuilder.Entity("ComputerPartShop.Data.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -72,12 +72,12 @@ namespace ComputerPartShop.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<double>("Cost")
+                        .HasColumnType("float");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -92,15 +92,15 @@ namespace ComputerPartShop.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ComputerPartShop.Data.Entities.PartProduct", "PartProduct")
+                    b.HasOne("ComputerPartShop.Data.Entities.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("PartProductId")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Order");
 
-                    b.Navigation("PartProduct");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ComputerPartShop.Data.Entities.Order", b =>
