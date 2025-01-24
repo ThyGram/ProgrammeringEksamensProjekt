@@ -47,6 +47,8 @@ namespace ComputerPartShop.Controllers
         [HttpPost]
         public IActionResult AddProduct(Product product)
         {
+            _context.Products.Add(product);
+            _context.SaveChanges();
             return View();
         }
 
