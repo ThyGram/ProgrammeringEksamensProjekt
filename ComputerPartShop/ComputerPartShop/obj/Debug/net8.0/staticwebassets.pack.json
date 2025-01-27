@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\js\\fetchAPI.js",
+      "PackagePath": "staticwebassets\\js\\fetchAPI.js"
+    },
+    {
       "Id": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,13 @@
-﻿@{
+﻿@model Customer
+@{
     ViewData["Title"] = "Home Page";
 }
+
+<script src='~/js/fetchAPI.js'></script>
+
+<!--
+@Html.HiddenFor(x => x.FirstName)
+-->
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>

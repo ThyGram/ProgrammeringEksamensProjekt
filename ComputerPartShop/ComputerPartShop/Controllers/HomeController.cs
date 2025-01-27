@@ -22,6 +22,24 @@ namespace ComputerPartShop.Controllers
             return View();
         }
 
+        public IActionResult Index2(Customer p)
+        {
+            _context.Database.EnsureCreated();
+            if (!_context.Customer.Any())
+            {
+                if (p != null)
+                {
+                    _context.Customer.AddRange(p);
+                }
+            }
+            else
+            {
+                _context.Customer.RemoveRange(_context.Customer);
+            }
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         public IActionResult Privacy()
         {
             return View();

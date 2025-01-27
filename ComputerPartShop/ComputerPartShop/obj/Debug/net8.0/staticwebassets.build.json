@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "swc91jLRBucIdBwrcbu7k4sKMOoGp43BvMN4+xEqQgk=",
+  "Hash": "HXBmcKnM3UZmsaK7+wxKsH7Wuvziuui6C6Xk4KGqlYI=",
   "Source": "ComputerPartShop",
   "BasePath": "_content/ComputerPartShop",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\js\\fetchAPI.js",
+      "SourceId": "ComputerPartShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\",
+      "BasePath": "_content/ComputerPartShop",
+      "RelativePath": "js/fetchAPI.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\fetchAPI.js"
     },
     {
       "Identity": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\js\\site.js",
