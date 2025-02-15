@@ -1,4 +1,5 @@
-﻿let url = ''
+﻿//Fetch computer parts from API
+let url = ''
 
 let isAlreadyFetched = sessionStorage.getItem("fetched")
 
@@ -24,5 +25,4 @@ if (isAlreadyFetched == null)
     const modelData = JSON.parse(localStorage.getItem("dataStore"))
 
     window.location.href = "Home/Index2?/Name=" + modelData.Name + "&Age=" + modelData.Age
-
 }

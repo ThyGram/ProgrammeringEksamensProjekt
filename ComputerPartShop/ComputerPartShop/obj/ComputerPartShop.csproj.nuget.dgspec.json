@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {}
+    "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {
+    "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
+        "projectUniqueName": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
         "projectName": "ComputerPartShop",
-        "projectPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
-        "packagesPath": "C:\\Users\\Willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\obj\\",
+        "projectPath": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
+        "packagesPath": "C:\\Users\\Theresa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Theresa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,32 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -72,15 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
