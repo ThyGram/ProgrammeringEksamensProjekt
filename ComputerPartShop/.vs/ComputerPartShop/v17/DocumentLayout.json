@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|c:\\users\\willi\\downloads\\programmeringeksamensprojekt\\computerpartshop\\computerpartshop\\wwwroot\\js\\fetchapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{80F1144C-E3C3-4E73-8600-18DCD9D8ED6B}|ComputerPartShop\\ComputerPartShop.csproj|solutionrelative:computerpartshop\\wwwroot\\js\\fetchapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -76,7 +80,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -84,17 +88,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.Customer [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.Customer.sql",
-              "ToolTip": "dbo.Customer [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-27T09:53:43.322Z",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ComputerPartShop\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ComputerPartShop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-19T12:29:43.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "dbo.Customer.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.Customer.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.Customer.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-27T09:53:43.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "20250127094543_ComputerDb.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Migrations\\20250127094543_ComputerDb.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Migrations\\20250127094543_ComputerDb.cs",
@@ -102,12 +118,11 @@
               "RelativeToolTip": "ComputerPartShop\\Migrations\\20250127094543_ComputerDb.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:48:34.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:48:34.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ComputerDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Migrations\\ComputerDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Migrations\\ComputerDbContextModelSnapshot.cs",
@@ -115,12 +130,11 @@
               "RelativeToolTip": "ComputerPartShop\\Migrations\\ComputerDbContextModelSnapshot.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:00:45.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:00:45.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ComputerPartShop\\Views\\Home\\Index.cshtml",
@@ -132,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "dbo.__EFMigrationsHistory.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.__EFMigrationsHistory.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.__EFMigrationsHistory.sql",
@@ -141,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "fetchAPI.js",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\wwwroot\\js\\fetchAPI.js",
               "RelativeDocumentMoniker": "ComputerPartShop\\wwwroot\\js\\fetchAPI.js",
@@ -154,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Data\\Entities\\Customer.cs",
@@ -162,12 +176,11 @@
               "RelativeToolTip": "ComputerPartShop\\Data\\Entities\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T07:55:59.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T07:55:59.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "ComputerPartShop\\Views\\Home\\About.cshtml",
@@ -179,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Views\\Home\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "ComputerPartShop\\Views\\Home\\AddProduct.cshtml",
@@ -191,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ComputerPartShop\\Views\\_ViewImports.cshtml",
@@ -203,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ShowProducts.cshtml",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Views\\Home\\ShowProducts.cshtml",
               "RelativeDocumentMoniker": "ComputerPartShop\\Views\\Home\\ShowProducts.cshtml",
@@ -215,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Controllers\\HomeController.cs",
@@ -223,12 +236,11 @@
               "RelativeToolTip": "ComputerPartShop\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T08:43:47.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T08:43:47.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ComputerPartShop.csproj",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\ComputerPartShop.csproj",
               "RelativeDocumentMoniker": "ComputerPartShop\\ComputerPartShop.csproj",
@@ -236,12 +248,11 @@
               "RelativeToolTip": "ComputerPartShop\\ComputerPartShop.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-13T09:46:46.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:46:46.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ComputerDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\ComputerDbContext.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Data\\ComputerDbContext.cs",
@@ -253,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\Entities\\OrderProduct.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Data\\Entities\\OrderProduct.cs",
@@ -261,12 +272,11 @@
               "RelativeToolTip": "ComputerPartShop\\Data\\Entities\\OrderProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T09:02:28.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:02:28.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Data\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Data\\Entities\\Order.cs",
@@ -274,12 +284,11 @@
               "RelativeToolTip": "ComputerPartShop\\Data\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T08:57:30.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:57:30.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\ComputerPartShop\\ComputerPartShop\\Program.cs",
               "RelativeDocumentMoniker": "ComputerPartShop\\Program.cs",
