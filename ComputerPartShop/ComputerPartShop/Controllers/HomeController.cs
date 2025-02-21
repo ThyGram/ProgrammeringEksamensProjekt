@@ -22,19 +22,19 @@ namespace ComputerPartShop.Controllers
             return View();
         }
 
-        public IActionResult Index2(Customer p)
+        public IActionResult Index2(Product p)
         {
             _context.Database.EnsureCreated();
-            if (!_context.Customer.Any())
+            if (!_context.Products.Any())
             {
                 if (p != null)
                 {
-                    _context.Customer.AddRange(p);
+                    _context.Products.AddRange(p);
                 }
             }
             else
             {
-                _context.Customer.RemoveRange(_context.Customer);
+                _context.Products.RemoveRange(_context.Products);
             }
             _context.SaveChanges();
             return RedirectToAction("Index");
