@@ -62,8 +62,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:35:01.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T18:35:01.149Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T16:49:25.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:49:25.028Z"
             },
             {
               "$type": "Document",
@@ -84,9 +82,9 @@
               "Title": "fetchAPI.js",
               "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
               "RelativeDocumentMoniker": "YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-              "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCAAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js*",
+              "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js*",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-23T16:48:40.427Z",
               "EditorCaption": ""
@@ -101,8 +99,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:46:19.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:46:19.314Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\FavoriteRecipe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:22:09.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:22:09.33Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:21:36.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:21:36.055Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:21:27.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:21:27.106Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "YourRecipeWebsite\\YourRecipeWebsite.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-23T16:17:53.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:17:53.177Z"
             },
             {
               "$type": "Document",

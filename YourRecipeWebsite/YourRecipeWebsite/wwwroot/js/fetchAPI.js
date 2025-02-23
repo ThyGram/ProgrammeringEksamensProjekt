@@ -1,4 +1,4 @@
-﻿let url = "https://www.themealdb.com/api/json/v1/1/categories.php"
+﻿/*let url = "https://www.themealdb.com/api/json/v1/1/categories.php"
 
 let isAlreadyFetched = null;// sessionStorage.getItem("fetched")
 let isAlreadyFetched2 = null
@@ -39,7 +39,7 @@ function FindMealName(categoryArray)
                     relevantInfo = {
                         Mealname: data.meals.map(AllNames),
                     }
-                    let storedData += relevantInfo;
+                    let storedData = JSON.parse(sessionStorage.getItem("dataStore2"));
                     sessionStorage.setItem("dataStore2", JSON.stringify(relevantInfo) + storedData);
                     sessionStorage.setItem("fetched2", "true");
                     done = true;
@@ -87,13 +87,7 @@ function FindRemainingMealInfo(mealNameArray) {
 }
 
 
-
-/*public string Mealname { get; set; }
-        public string Category { get; set; }
-        public string Area { get; set; }
-        public string Instructions { get; set; }
-        public string Ingredients { get; set; }
-        */
+        
 function AllCategories(data) {
     return data.strCategory
 }
@@ -130,4 +124,72 @@ function Ingredients(data) {
         data.strIngredient19 + data.strMeasure19,
         data.strIngredient20 + data.strMeasure20
     )
+}*/
+
+
+const url = "https://www.themealdb.com/api/json/v1/1/categories.php"
+
+GetRequest(url)
+    .then(data => {
+        let categories = data.categories.map(data => data.strCategory)
+        console.log(categories)
+        if (categories != null) {
+            getMealName(categories);
+        }
+    })
+    .catch(err => console.error(err))
+
+function getMealName(categoryArray) {
+    console.log("IM IN")
+    for (let i = 0; i < categoryArray.length; i++) {
+        let url2 = "https://www.themealdb.com/api/json/v1/1/filter.php?c=" + categoryArray[i];
+        GetRequest(url2)
+            .then(data => {
+                let MealNames = data.meals.map(data => data.strMeal)
+
+                let storedMealNames = storedMealNames.concat(MealNames)
+                
+
+                if (i == categoryArray.length - 1) {
+                    console.log("ModelData2");
+                    console.log(storedMealNames);
+                    if (storedMealNames != null) {
+                        //FindRemainingMealInfo(modelData2.Mealname);
+                    }
+                }
+                    
+                    
+            })
+            .catch(err => console.error(err))
+
+    }
+}
+
+
+async function GetRequest(url) {
+    const fetchResponse = await fetch(url);
+    return fetchResponse.json();
+}
+function fetchAPI(url) {
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            relevantInfo = {
+                Category: data.categories.map(AllCategories)
+            }
+            console.log("gggg")
+            sessionStorage.setItem("dataStore", JSON.stringify(relevantInfo));
+            sessionStorage.setItem("fetched", "true");
+            const modelData = JSON.parse(sessionStorage.getItem("dataStore"))
+            console.log("modelData")
+            console.log(modelData)
+            if (modelData != null) {
+                FindMealName(modelData.Category)
+            }
+        })
+        .catch(err => console.error(err))
+}
+
+function MergeArrays(array1, array2) {
+
 }
