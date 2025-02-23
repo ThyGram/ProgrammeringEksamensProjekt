@@ -1,0 +1,133 @@
+﻿let url = "https://www.themealdb.com/api/json/v1/1/categories.php"
+
+let isAlreadyFetched = null;// sessionStorage.getItem("fetched")
+let isAlreadyFetched2 = null
+let isAlreadyFetched3 = null
+
+if (isAlreadyFetched == null) {
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            relevantInfo = {
+                Category: data.categories.map(AllCategories)
+            }
+            console.log("gggg")
+            sessionStorage.setItem("dataStore", JSON.stringify(relevantInfo));
+            sessionStorage.setItem("fetched", "true");
+            const modelData = JSON.parse(sessionStorage.getItem("dataStore"))
+            console.log("modelData")
+            console.log(modelData)
+            if (modelData != null) {
+                FindMealName(modelData.Category)
+            }
+        })
+        .catch(err => console.error(err))
+}
+
+function FindMealName(categoryArray)
+{
+    console.log("IM IN")
+    let done = true
+    for (let i = 0; (i < categoryArray.length) && (done == true); i++)
+    {
+        done = false;
+        let url2 = "https://www.themealdb.com/api/json/v1/1/filter.php?c=" + categoryArray[i];
+        if (isAlreadyFetched2 == null) {
+            fetch(url2)
+                .then(response => response.json())
+                .then(data => {
+                    relevantInfo = {
+                        Mealname: data.meals.map(AllNames),
+                    }
+                    let storedData += relevantInfo;
+                    sessionStorage.setItem("dataStore2", JSON.stringify(relevantInfo) + storedData);
+                    sessionStorage.setItem("fetched2", "true");
+                    done = true;
+                    if (i == categoryArray.length - 1) {
+                        const modelData2 = JSON.parse(sessionStorage.getItem("dataStore2"));
+                        console.log("ModelData2");
+                        console.log(modelData2);
+                        if (modelData2 != null) {
+                            FindRemainingMealInfo(modelData2.Mealname);
+                        }
+                    }
+                })
+                .catch(err => console.error(err))
+        }
+    }
+    
+}
+
+function FindRemainingMealInfo(mealNameArray) {
+    console.log("IM IN")
+    for (let i = 0; i < mealNameArray.length; i++) {
+        let url3 = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealNameArray[i]
+        if (isAlreadyFetched3 == null) {
+            fetch(url3)
+                .then(response => response.json())
+                .then(data => {
+                    relevantInfo = {
+                        Mealname: data.meals.map(AllNames),
+                        Area: data.meals.map(AllAreas),
+                        Instructions: data.meals.map(AllInstructions),
+                        Ingredient: data.meals.map(Ingredients)
+                    }
+                    localStorage.setItem("dataStore3", JSON.stringify(relevantInfo));
+                    sessionStorage.setItem("fetched3", "true");
+                })
+                .catch(err => console.error(err))
+
+            
+        }
+    }
+    const modelData3 = JSON.parse(localStorage.getItem("dataStore3"))
+    //window.location.href = "Home/Index2?" + modelData.strMeal + "&Category=" + categoryArray[i] + "&Area=" + dea + "&Instructions=" + deas + "&Ingredients=" + modelData
+    console.log("ModelData3")
+    console.log(modelData3)
+}
+
+
+
+/*public string Mealname { get; set; }
+        public string Category { get; set; }
+        public string Area { get; set; }
+        public string Instructions { get; set; }
+        public string Ingredients { get; set; }
+        */
+function AllCategories(data) {
+    return data.strCategory
+}
+function AllNames(data) {
+    return data.strMeal
+}
+function AllAreas(data) {
+    return data.strArea
+}
+function AllInstructions(data) {
+    return data.strInstructions
+}
+
+function Ingredients(data) {
+    return (
+        data.strIngredient1 + data.strMeasure1,
+        data.strIngredient2 + data.strMeasure2,
+        data.strIngredient3 + data.strMeasure3,
+        data.strIngredient4 + data.strMeasure4,
+        data.strIngredient5 + data.strMeasure5,
+        data.strIngredient6 + data.strMeasure6,
+        data.strIngredient7 + data.strMeasure7,
+        data.strIngredient8 + data.strMeasure8,
+        data.strIngredient9 + data.strMeasure9,
+        data.strIngredient10 + data.strMeasure10,
+        data.strIngredient11 + data.strMeasure11,
+        data.strIngredient12 + data.strMeasure12,
+        data.strIngredient13 + data.strMeasure13,
+        data.strIngredient14 + data.strMeasure14,
+        data.strIngredient15 + data.strMeasure15,
+        data.strIngredient16 + data.strMeasure16,
+        data.strIngredient17 + data.strMeasure17,
+        data.strIngredient18 + data.strMeasure18,
+        data.strIngredient19 + data.strMeasure19,
+        data.strIngredient20 + data.strMeasure20
+    )
+}
