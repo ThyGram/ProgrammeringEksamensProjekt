@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OM/HatohhRfbqUW7lR8QGzDSoP5eAZOnGAXcoPSg2Ao=",
+  "Hash": "ELI4i3rR5RlKfbFv+bQ816+fVTtdg/uUG1iZcNc/4jE=",
   "Source": "YourRecipeWebsite",
   "BasePath": "_content/YourRecipeWebsite",
   "Mode": "Default",
@@ -941,12 +941,12 @@
       "OriginalItemSpec": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-9pq30qbmii.gz",
+      "Identity": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-nm324tdrfw.gz",
       "SourceId": "YourRecipeWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/YourRecipeWebsite",
-      "RelativePath": "js/fetchAPI#[.{fingerprint=9pq30qbmii}]?.js.gz",
+      "RelativePath": "js/fetchAPI#[.{fingerprint=nm324tdrfw}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -955,8 +955,8 @@
       "RelatedAsset": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z955aw8z3w",
-      "Integrity": "CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8=",
+      "Fingerprint": "owql33t3xs",
+      "Integrity": "eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9pq30qbmii",
-      "Integrity": "E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds=",
+      "Fingerprint": "nm324tdrfw",
+      "Integrity": "3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\fetchAPI.js"
@@ -3366,13 +3366,13 @@
       ]
     },
     {
-      "Route": "js/fetchAPI.9pq30qbmii.js",
-      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-9pq30qbmii.gz",
+      "Route": "js/fetchAPI.js",
+      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-nm324tdrfw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000638569604"
+          "Quality": "0.000846740051"
         }
       ],
       "ResponseHeaders": [
@@ -3382,19 +3382,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1565"
+          "Value": "1180"
         },
         {
           "Name": "ETag",
-          "Value": "\"CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8=\""
+          "Value": "\"eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 10:28:04 GMT"
+          "Value": "Tue, 04 Mar 2025 12:11:01 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3410,26 +3410,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds=\""
+          "Value": "W/\"3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "9pq30qbmii"
-        },
-        {
-          "Name": "label",
-          "Value": "js/fetchAPI.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds="
+          "Value": "sha256-3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls="
         }
       ]
     },
     {
-      "Route": "js/fetchAPI.9pq30qbmii.js",
+      "Route": "js/fetchAPI.js",
       "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3439,7 +3431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9221"
+          "Value": "5053"
         },
         {
           "Name": "Content-Type",
@@ -3447,11 +3439,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds=\""
+          "Value": "\"3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 10:28:04 GMT"
+          "Value": "Tue, 04 Mar 2025 12:11:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls="
+        }
+      ]
+    },
+    {
+      "Route": "js/fetchAPI.js.gz",
+      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-nm324tdrfw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:11:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE="
+        }
+      ]
+    },
+    {
+      "Route": "js/fetchAPI.nm324tdrfw.js",
+      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-nm324tdrfw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000846740051"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1180"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:11:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nm324tdrfw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/fetchAPI.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls="
+        }
+      ]
+    },
+    {
+      "Route": "js/fetchAPI.nm324tdrfw.js",
+      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 12:11:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3461,7 +3598,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9pq30qbmii"
+          "Value": "nm324tdrfw"
         },
         {
           "Name": "label",
@@ -3469,13 +3606,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds="
+          "Value": "sha256-3yaAlRku+9xZbfR11V/T39EA/5kBEWGrjJB93T62nls="
         }
       ]
     },
     {
-      "Route": "js/fetchAPI.9pq30qbmii.js.gz",
-      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-9pq30qbmii.gz",
+      "Route": "js/fetchAPI.nm324tdrfw.js.gz",
+      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-nm324tdrfw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3484,7 +3621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1565"
+          "Value": "1180"
         },
         {
           "Name": "Content-Type",
@@ -3492,11 +3629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8=\""
+          "Value": "\"eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 10:28:04 GMT"
+          "Value": "Tue, 04 Mar 2025 12:11:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3514,7 +3651,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9pq30qbmii"
+          "Value": "nm324tdrfw"
         },
         {
           "Name": "label",
@@ -3522,144 +3659,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetchAPI.js",
-      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-9pq30qbmii.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000638569604"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1565"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 10:28:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetchAPI.js",
-      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9221"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 10:28:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-E34vMlda3YK5PbragppI/vC8/GI6L//6KThG7U1xGds="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetchAPI.js.gz",
-      "AssetFile": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-9pq30qbmii.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1565"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 10:28:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CUwZBjPENr6smS/4DRzxEneMPSPgbFYi10PMITIr2z8="
+          "Value": "sha256-eNqstqkO9e91Vf5LXi+UCPB8fa6NcBL/ZWpOckyd/DE="
         }
       ]
     },

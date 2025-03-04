@@ -436,11 +436,11 @@ C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourReci
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.YourRecipeWebsite.props
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.YourRecipeWebsite.props
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\YourReci.56C41B61.Up2Date
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\YourRecipeWebsite.dll
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\refint\YourRecipeWebsite.dll
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\YourRecipeWebsite.pdb
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\YourRecipeWebsite.genruntimeconfig.cache
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\ref\YourRecipeWebsite.dll
-C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\me2ptwiqok-9pq30qbmii.gz
+C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\me2ptwiqok-nm324tdrfw.gz

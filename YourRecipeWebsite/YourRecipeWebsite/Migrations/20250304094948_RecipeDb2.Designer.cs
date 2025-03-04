@@ -11,8 +11,8 @@ using YourRecipeWebsite.Data;
 namespace YourRecipeWebsite.Migrations
 {
     [DbContext(typeof(RecipeDbContext))]
-    [Migration("20250223163844_RecipeDb")]
-    partial class RecipeDb
+    [Migration("20250304094948_RecipeDb2")]
+    partial class RecipeDb2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -56,18 +56,18 @@ namespace YourRecipeWebsite.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Area")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Category")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Ingredients")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Instructions")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MealPNG")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

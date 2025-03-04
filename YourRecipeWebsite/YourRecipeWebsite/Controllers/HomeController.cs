@@ -22,14 +22,25 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Index2(Recipe p)
+    public IActionResult Index2(string mealName, string mealPNG)
     {
+        string[] arrayMealName = mealName.Split(",");
+        string[] arrayMealPNG = mealPNG.Split(",");
         _context.Database.EnsureCreated();
+
+        List<Recipe> allRec = new List<Recipe>();
+        for (int i = 0; i < arrayMealName.Length; i++)
+        {
+            Recipe r = new Recipe();
+            r.MealPNG = arrayMealPNG[i];
+            r.Mealname = arrayMealName[i];
+            allRec.Add(r);
+        }
         if (!_context.Recipes.Any())
         {
-            if (p != null)
-            {
-                _context.Recipes.AddRange(p);
+            if (mealName != null)
+            {   
+                _context.Recipes.AddRange(allRec);
             }
         }
         else
