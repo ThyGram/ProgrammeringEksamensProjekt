@@ -22,7 +22,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Index2(string mealName, string mealPNG)
+    public IActionResult Index2(string mealName, string mealPNG, int iteration)
     {
         string[] arrayMealName = mealName.Split(",");
         string[] arrayMealPNG = mealPNG.Split(",");
@@ -49,7 +49,10 @@ public class HomeController : Controller
         }
 
         _context.SaveChanges();
+
         return RedirectToAction("Index");
+      
+        
     }
     public IActionResult Privacy()
     {
