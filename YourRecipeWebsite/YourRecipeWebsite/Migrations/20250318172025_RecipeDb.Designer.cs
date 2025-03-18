@@ -11,8 +11,8 @@ using YourRecipeWebsite.Data;
 namespace YourRecipeWebsite.Migrations
 {
     [DbContext(typeof(RecipeDbContext))]
-    [Migration("20250304094948_RecipeDb2")]
-    partial class RecipeDb2
+    [Migration("20250318172025_RecipeDb")]
+    partial class RecipeDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

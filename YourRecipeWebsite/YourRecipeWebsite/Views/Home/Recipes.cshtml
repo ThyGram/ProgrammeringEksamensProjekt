@@ -1,0 +1,16 @@
+﻿@model List<Recipe>
+@{
+    ViewData["Title"] = "Our RECIPESS";
+
+}
+
+<h1>@ViewData["Title"]</h1>
+<ul>
+    @foreach(Recipe item in Model)
+    {
+        <li>
+            <p>@item.Mealname <img src=@item.MealPNG> </p>
+        </li>
+    }
+</ul>
+

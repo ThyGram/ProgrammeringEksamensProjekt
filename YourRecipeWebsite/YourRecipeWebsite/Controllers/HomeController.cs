@@ -59,6 +59,20 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Recipes()
+    {
+        List<Recipe> result = _context.Recipes.ToList();
+
+        return View(result);
+    }
+
+    /*public IActionResult SpecificRecipes()
+    {
+        List<Recipe> result = _context.Recipes.OrderBy(p => p.Category).ToList();
+
+        return RedirectToAction("Recipes");
+    }*/
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
