@@ -18,9 +18,7 @@ C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\scopedcss\bundle\YourRecipeWebsite.styles.css
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\scopedcss\projectbundle\YourRecipeWebsite.bundle.scp.css
-C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\qosq30e2im-b9sayid5wm.gz
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\d9eqoe6ob7-61n19gt1b8.gz
-C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\clzzt4p0x5-xtxxf3hu2r.gz
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\z47o25zv53-bqjiyaj88i.gz
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\kpfq0y9ecc-c2jlpeoesf.gz
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\d3s82rmfvk-erw9l3u2r3.gz
@@ -444,3 +442,5 @@ C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourReci
 C:\Users\Willi\Downloads\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\me2ptwiqok-5ajzm7id29.gz
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\me2ptwiqok-t9c2xspvgz.gz
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\qosq30e2im-30bisg8opf.gz
+C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\obj\Debug\net9.0\compressed\clzzt4p0x5-jcf1s00qtu.gz

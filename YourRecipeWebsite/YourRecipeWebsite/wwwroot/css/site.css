@@ -29,3 +29,25 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.recipes{
+    display: inline-block;
+    margin: 5px;
+    width: 200px;
+
+
+}
+
+.recipes .recipename {
+    padding: 10px;
+    text-align: center;
+}
+
+.recipes:hover {
+
+}
+
+.recipes img{
+    width: 100%;
+    height: auto;
+}
