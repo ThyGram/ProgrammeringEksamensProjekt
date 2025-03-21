@@ -4,20 +4,23 @@
 
 }
 
-
-<h1>@ViewData["Title"]</h1>
+<head>
+    <script src="~/js/fetchAPI.js"></script>
+</head>
 
 <body>
-    @foreach (Recipe item in Model)
-    {
-        <div class="recipes">
-            <a target="_blank" href=@item.MealPNG>
-                <!-- HYPER LINK -->
-                <img src=@item.MealPNG alt=@item.Mealname />
-            </a>
-            <div class="recipename">@item.Mealname</div>
-        </div>
-    }
+    <h1>Recipes</h1>
+
+        @foreach (Recipe item in Model)
+        {
+        <button onclick="GetMealInfo('@item.Mealname', '@item.Id')">
+                <div class="recipes">
+                    <img src=@item.MealPNG alt=@item.Mealname />
+                    <div class="recipename">@item.Mealname</div>
+                </div>
+            </button>
+        }
+    
 </body>
     
 

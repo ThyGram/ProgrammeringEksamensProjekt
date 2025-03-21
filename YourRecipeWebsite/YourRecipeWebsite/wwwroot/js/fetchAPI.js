@@ -1,4 +1,4 @@
-﻿const url = "https://www.themealdb.com/api/json/v1/1/categories.php"
+﻿const url = "https://www.themealdb.com/api/json/v1/1/categories.php";
 if (sessionStorage.getItem("isAlreadyFetched") == null)
 {
     sessionStorage.setItem("isAlreadyFetched", false)
@@ -32,13 +32,39 @@ function getMealName(categoryArray) {
 
                     if (i == categoryArray.length - 1) {
                         sessionStorage.setItem("isAlreadyFetched", true);
-                        storedMealNames = storedMealNames.map(data => data.replace())
-                        storedMealNames = ReplceOGTEGNwithog(storedMealNames)
+                        storedMealNames = ReplaceSpecificSymbols(storedMealNames)
                         window.location.href = "Home/Index2?mealName=" + storedMealNames + "&mealPNG=" + storedMealPNGs;
                     }
                 })
                 .catch(err => console.error(err))
         }
+    }
+}
+
+function GetMealInfo(mealName, id) {
+    console.log(mealName)
+    mealName = mealName.replace("，︀", ", ") // Add comma again, to search for the proper meal name
+    mealName = mealName.replace("aƞd", "&") // Add comma again, to search for the proper meal name
+    let isAlreadyFetched2 = sessionStorage.getItem(mealName)
+    if (!isAlreadyFetched2 || isAlreadyFetched2 == null) {
+        let url3 = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealName
+        GetRequest(url3)
+            .then(data => {
+                let Category = data.meals[0].strCategory
+                let Area = data.meals[0].strArea
+                let Instructions = data.meals[0].strInstructions
+                let Ingredients = IngredientsForMeal(data.meals);
+
+                sessionStorage.setItem(mealName, true);
+
+                Category = ReplaceSpecificSymbols(Category);
+                Area = ReplaceSpecificSymbols(Area);
+                Instructions = ReplaceSpecificSymbols(Instructions);
+                Ingredients = ReplaceSpecificSymbols(Ingredients);
+
+                window.location.href = "SpecificRecipe?Category=" + Category + "&Area=" + Area + "&Instructions=" + Instructions + "&Ingredients=" + Ingredients + "&id=" + id;
+            })
+            .catch(err => console.error(err));
     }
 }
             
@@ -48,7 +74,7 @@ async function GetRequest(url) {
 }
 
 function MergeArrays(array1, array2) {
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 7; i++) { // smaller than 8, because if increased, the amount of meals become too much.
         if (array2[i] != null)
         {
             array1.push(array2[i]);
@@ -58,83 +84,30 @@ function MergeArrays(array1, array2) {
     return array1;
 }
 
-function ReplceOGTEGNwithog(MealNames) {
-    for (let i = 0; i < MealNames.length; i++) {
-        MealNames[i] = MealNames[i].replace("&", "and")
-        MealNames[i] = MealNames[i].replace(", ", "，︀")
+function IngredientsForMeal(data) {
+    let AllIngredients = ""
+    for (let i = 1; i < 21; i++) {
+        let ingre = data[0][`strIngredient${i}`]
+        let measu = data[0][`strMeasure${i}`]
+        if ((ingre != null && ingre && undefined && ingre.length != 0)  || (measu != null && measu != undefined && measu.length != 0)) {
+            AllIngredients += data[0][`strIngredient${i}`] + " " + data[0][`strMeasure${i}`] + "，︀"
+        }
+    }
+    return AllIngredients;
+}
 
+function ReplaceSpecificSymbols(MealNames) {
+    if (Array.isArray(MealNames)) {
+        for (let i = 0; i < MealNames.length; i++) {
+            MealNames[i] = MealNames[i].replace("&", "aƞd"); // Avoid mistakes from &
+            MealNames[i] = MealNames[i].replace(", ", "，︀"); // Avoid mistakes from ,
+
+
+        }
+    }
+    else {
+        MealNames = MealNames.replace("&", "aƞd");
+        MealNames = MealNames.replace(", ", "，︀");
     }
     return MealNames;
 }
-
-
-// IKKE RELEVANT TIL ØVRIGE KODE
-/*
-async function InputDatatoDatabase(mealName2, mealPNG2, iteration) {
-    mealInfo = {
-        mealName: mealName2,
-        mealPNG: mealPNG2
-    }
-    window.location.href = "Home/Index2?mealName=" + mealName2 + "&mealPNG=" + mealPNG2 + "&iteration=" + iteration;
-
-}
-function getMealInfo(mealName) {
-
-}
-
-//window.location.href = "Home/Index2?" + modelData.strMeal + "&Category=" + categoryArray[i] + "&Area=" + dea + "&Instructions=" + deas + "&Ingredients=" + modelData
-//console.log("ModelData3")
-function FindMealInfo(mealNameArray)
-{
-    let storedMealInfo = []
-    for (let i = 0; i < 5; i++) {
-        let url3 = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealNameArray[i]
-        GetRequest(url3)
-            .then(data => {
-                relevantMealInfo = {
-                    Mealname: data.meals.map(data => data.strMeal),
-                    Area: data.meals.map(data => data.strArea),
-                    Instructions: data.meals.map(data => data.strInstructions),
-                    Ingredient: data.meals.map(Ingredients)
-                }
-
-                storedMealInfo = MergeArrays(storedMealInfo, relevantMealInfo);
-                if (i == mealNameArray.length - 1) {
-                    console.log("ModelData2");
-                    console.log(storedMealInfo);
-                    if (storedMealInfo != null) {
-                        console.log(storedMealInfo);
-                    }
-                }
-
-
-            })
-            .catch(err => console.error(err))
-
-    }
-}
-function Ingredients(data) {
-    return (
-        data.strIngredient1 + data.strMeasure1,
-        data.strIngredient2 + data.strMeasure2,
-        data.strIngredient3 + data.strMeasure3,
-        data.strIngredient4 + data.strMeasure4,
-        data.strIngredient5 + data.strMeasure5,
-        data.strIngredient6 + data.strMeasure6,
-        data.strIngredient7 + data.strMeasure7,
-        data.strIngredient8 + data.strMeasure8,
-        data.strIngredient9 + data.strMeasure9,
-        data.strIngredient10 + data.strMeasure10,
-        data.strIngredient11 + data.strMeasure11,
-        data.strIngredient12 + data.strMeasure12,
-        data.strIngredient13 + data.strMeasure13,
-        data.strIngredient14 + data.strMeasure14,
-        data.strIngredient15 + data.strMeasure15,
-        data.strIngredient16 + data.strMeasure16,
-        data.strIngredient17 + data.strMeasure17,
-        data.strIngredient18 + data.strMeasure18,
-        data.strIngredient19 + data.strMeasure19,
-        data.strIngredient20 + data.strMeasure20
-    )
-}
-*/

@@ -36,7 +36,6 @@ public class HomeController : Controller
             r.Mealname = arrayMealName[i];
             allRec.Add(r);
         }
-
         if (!_context.Recipes.Any())
         {
             if (allRec != null)
@@ -62,12 +61,25 @@ public class HomeController : Controller
         return View(result);
     }
 
-    /*public IActionResult SpecificRecipes()
+    public IActionResult SpecificRecipe(string Category, string Area, string Instructions, string Ingredients, int id)
     {
-        List<Recipe> result = _context.Recipes.OrderBy(p => p.Category).ToList();
+        Recipe r = new Recipe();
+        _context.Database.EnsureCreated();
 
-        return RedirectToAction("Recipes");
-    }*/
+        var recipe = _context.Recipes.Find(id);
+        
+        if (recipe != null)
+        {
+            recipe.Category = Category;
+            recipe.Area = Area;
+            recipe.Instructions = Instructions;
+            recipe.Ingredients = Ingredients;
+        }
+
+        _context.SaveChanges();
+
+        return View(recipe);
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
