@@ -1,5 +1,6 @@
 ﻿const url = "https://www.themealdb.com/api/json/v1/1/categories.php"
-if (sessionStorage.getItem("isAlreadyFetched") == null) {
+if (sessionStorage.getItem("isAlreadyFetched") == null)
+{
     sessionStorage.setItem("isAlreadyFetched", false)
 }
 let isAlreadyFetched = JSON.parse(sessionStorage.getItem("isAlreadyFetched"));
@@ -10,9 +11,7 @@ if (isAlreadyFetched == false)
         .then(data => {
             let categories = data.categories.map(data => data.strCategory)
             console.log(categories)
-            if (categories != null) {
-                getMealName(categories);
-            }
+            getMealName(categories);
         })
         .catch(err => console.error(err))
 }
@@ -31,13 +30,10 @@ function getMealName(categoryArray) {
                     let mealPNG = data.meals.map(data => data.strMealThumb)
                     storedMealPNGs = MergeArrays(storedMealPNGs, mealPNG)
 
-                    /*relevantMealInfo = {
-                        mealName: mealName,
-                        mealPNG: mealPNG
-                    }*/
-
                     if (i == categoryArray.length - 1) {
                         sessionStorage.setItem("isAlreadyFetched", true);
+                        storedMealNames = storedMealNames.map(data => data.replace())
+                        storedMealNames = ReplceOGTEGNwithog(storedMealNames)
                         window.location.href = "Home/Index2?mealName=" + storedMealNames + "&mealPNG=" + storedMealPNGs;
                     }
                 })
@@ -52,10 +48,23 @@ async function GetRequest(url) {
 }
 
 function MergeArrays(array1, array2) {
-    for (let i = 0; i < 2; i++) {
-        array1.push(array2[i]);
+    for (let i = 0; i < 8; i++) {
+        if (array2[i] != null)
+        {
+            array1.push(array2[i]);
+        }
+        
     }
     return array1;
+}
+
+function ReplceOGTEGNwithog(MealNames) {
+    for (let i = 0; i < MealNames.length; i++) {
+        MealNames[i] = MealNames[i].replace("&", "and")
+        MealNames[i] = MealNames[i].replace(", ", "，︀")
+
+    }
+    return MealNames;
 }
 
 

@@ -31,23 +31,39 @@ body {
 }
 
 .recipes{
+    position: relative;
     display: inline-block;
     margin: 5px;
     width: 200px;
 
-
 }
 
 .recipes .recipename {
-    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
 }
 
 .recipes:hover {
 
 }
 
-.recipes img{
+.recipes img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

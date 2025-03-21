@@ -22,7 +22,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Index2(string mealName, string mealPNG, int iteration)
+    public IActionResult Index2(string mealName, string mealPNG)
     {
         string[] arrayMealName = mealName.Split(",");
         string[] arrayMealPNG = mealPNG.Split(",");
@@ -36,18 +36,14 @@ public class HomeController : Controller
             r.Mealname = arrayMealName[i];
             allRec.Add(r);
         }
+
         if (!_context.Recipes.Any())
         {
-            if (mealName != null)
-            {   
+            if (allRec != null)
+            {
                 _context.Recipes.AddRange(allRec);
             }
         }
-        else
-        {
-            _context.Recipes.RemoveRange(_context.Recipes);
-        }
-
         _context.SaveChanges();
 
         return RedirectToAction("Index");
