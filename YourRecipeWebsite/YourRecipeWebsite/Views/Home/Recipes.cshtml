@@ -1,22 +1,111 @@
-﻿@model List<Recipe>
+﻿@model List<List<Recipe>>
 @{
     ViewData["Title"] = "Our RECIPESS";
+    string recipesName = "";
+    string recipesId = "";
+    string recipesCategory = "";
+    string recipesArea = "";
+    List<Recipe> SearchRecipes = Model[0];
+    List<Recipe> AllRecipes = Model[1];
 
+    for (int i = 0; i < AllRecipes.Count();i++)
+    {
+        if (i == AllRecipes.Count() - 1)
+        {
+            recipesName += AllRecipes[i].Mealname;
+            recipesId += AllRecipes[i].Id;
+            recipesCategory += AllRecipes[i].Category;
+            recipesArea += AllRecipes[i].Area;
+        }
+        else
+        {
+            recipesName += AllRecipes[i].Mealname + ", ";
+            recipesId += AllRecipes[i].Id + ", ";
+            recipesCategory += AllRecipes[i].Category + ", ";
+            recipesArea += AllRecipes[i].Area + ", ";
+        }
+
+    }
+
+    if (SearchRecipes.Count() != 0)
+    {
+        AllRecipes = SearchRecipes;
+    }
 }
 
 <head>
     <script src="~/js/fetchAPI.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
     <h1>Recipes</h1>
+    <input id="searchtarget" placeholder="Search for specific recipe...">
+    <button onclick="Search('@recipesName', '@recipesId')">Search</button>
 
-        @foreach (Recipe item in Model)
+    <label for="Category">Filter by Category:</label>
+    <select name="Category" id="CategoryFilter" onchange="FilterCategory('@recipesCategory', '@recipesId')">
+        <option value="Categories">Categories</option>
+        <option value="Beef">Beef</option>
+        <option value="Chicken">Chicken</option>
+        <option value="Dessert">Dessert</option>
+        <option value="Lamb">Lamb</option>
+        <option value="Miscellaneous">Miscellaneous</option>
+        <option value="Pasta">Pasta</option>
+        <option value="Pork">Pork</option>
+        <option value="Seafood">Seafood</option>
+        <option value="Side">Side</option>
+        <option value="Starter">Starter</option>
+        <option value="Vegan">Vegan</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Goat">Goat</option>
+    </select>
+    
+    
+    <label for="Area">Filter by Area:</label>
+    <select name="Area" id="AreaFilter" onchange="FilterArea('@recipesArea', '@recipesId')">
+        <option value="Areas">Areas</option>
+        <option value="American">American</option>
+        <option value="British">British</option>
+        <option value="Canadian">Canadian</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Croatian">Croatian</option>
+        <option value="Dutch">Dutch</option>
+        <option value="Egyptian">Egyptian</option>
+        <option value="Filipino">Filipino</option>
+        <option value="French">French</option>
+        <option value="Greek">Greek</option>
+        <option value="Indian">Indian</option>
+        <option value="Irish">Irish</option>
+        <option value="Italian">Italian</option>
+        <option value="Jamaican">Jamaican</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Kenyan">Kenyan</option>
+        <option value="Malaysian">Malaysian</option>
+        <option value="Mexican">Mexican</option>
+        <option value="Moroccan">Moroccan</option>
+        <option value="Polish">Polish</option>
+        <option value="Portuguese">Portuguese</option>
+        <option value="Russian">Russian</option>
+        <option value="Spanish">Spanish</option>
+        <option value="Thai">Thai</option>
+        <option value="Tunisian">Tunisian</option>
+        <option value="Turkish">Turkish</option>
+        <option value="Ukrainian">Ukrainian</option>
+        <option value="Uruguayan">Uruguayan</option>
+        <option value="Vietnamese">Vietnamese</option>
+    </select>
+
+    <button onclick="ResetFilters()"> Reset Filters </button>
+
+    <br />
+    @for (int i = 0; i < AllRecipes.Count(); i++)
         {
-        <button onclick="GetMealInfo('@item.Mealname', '@item.Id')">
+        <button onclick="GetMealInfo('@AllRecipes[i].Mealname', '@AllRecipes[i].Id')">
                 <div class="recipes">
-                    <img src=@item.MealPNG alt=@item.Mealname />
-                    <div class="recipename">@item.Mealname</div>
+                <img src=@AllRecipes[i].MealPNG alt=@AllRecipes[i].Mealname />
+                <div class="recipename">@AllRecipes[i].Mealname</div>
                 </div>
             </button>
         }

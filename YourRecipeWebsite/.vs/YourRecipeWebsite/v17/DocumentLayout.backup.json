@@ -3,47 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\wwwroot\\js\\fetchapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\wwwroot\\js\\fetchapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\home\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\migrations\\20250318172025_recipedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\migrations\\20250318172025_recipedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\home\\recipes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\home\\recipes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\home\\specificrecipe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\home\\specificrecipe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\wwwroot\\js\\fetchapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\wwwroot\\js\\fetchapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\yourrecipewebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\yourrecipewebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\home\\recipes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\home\\recipes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\entities\\favoriterecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\data\\entities\\favoriterecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeDb/True/SqlTable/dbo.Recipes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\yourrecipewebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\yourrecipewebsite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeDb/True/SqlTable/dbo.Recipes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\recipedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,18 +68,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\entities\\favoriterecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\data\\entities\\favoriterecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|c:\\users\\theresa\\documents\\github\\programmeringeksamensprojekt\\yourrecipewebsite\\yourrecipewebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{894D65D3-CAB2-416A-A641-0C2C14359011}|YourRecipeWebsite\\YourRecipeWebsite.csproj|solutionrelative:yourrecipewebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,85 +85,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Recipes.cshtml",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
-              "RelativeToolTip": "YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T07:13:10.753Z",
+              "DocumentIndex": 1,
+              "Title": "20250318172025_RecipeDb.cs",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Migrations\\20250318172025_RecipeDb.cs",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Migrations\\20250318172025_RecipeDb.cs",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Migrations\\20250318172025_RecipeDb.cs",
+              "RelativeToolTip": "YourRecipeWebsite\\Migrations\\20250318172025_RecipeDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:15:06.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Account.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Account.cshtml",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Views\\Home\\Account.cshtml",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Account.cshtml*",
+              "RelativeToolTip": "YourRecipeWebsite\\Views\\Home\\Account.cshtml*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T15:48:23.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "fetchAPI.js",
               "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
               "RelativeDocumentMoniker": "YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js*",
-              "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js*",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAwwG0AAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
+              "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-21T07:13:10.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "YourRecipeWebsite\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwEcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:13:10.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
-              "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:13:10.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-21T07:13:10.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "YourRecipeWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T07:13:10.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SpecificRecipe.cshtml",
               "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\SpecificRecipe.cshtml",
               "RelativeDocumentMoniker": "YourRecipeWebsite\\Views\\Home\\SpecificRecipe.cshtml",
@@ -172,15 +137,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Program.cs",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Program.cs",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Program.cs",
-              "RelativeToolTip": "YourRecipeWebsite\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\User.cs",
+              "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:13:10.964Z",
+              "WhenOpened": "2025-03-21T07:13:10.954Z",
               "EditorCaption": ""
             },
             {
@@ -191,23 +156,27 @@
               "RelativeDocumentMoniker": "YourRecipeWebsite\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\site.js",
               "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-21T07:13:10.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dbo.Recipes [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeDb/True/SqlTable/dbo.Recipes.sql",
-              "ToolTip": "dbo.Recipes [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-21T10:22:15.467Z"
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YourRecipeWebsite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:13:10.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "YourRecipeWebsite.csproj",
               "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\YourRecipeWebsite.csproj",
               "RelativeDocumentMoniker": "YourRecipeWebsite\\YourRecipeWebsite.csproj",
@@ -220,46 +189,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\User.cs",
-              "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Recipes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
+              "RelativeToolTip": "YourRecipeWebsite\\Views\\Home\\Recipes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T07:13:10.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
+              "RelativeToolTip": "YourRecipeWebsite\\Data\\Entities\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:13:10.954Z",
+              "WhenOpened": "2025-03-21T07:13:10.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RecipeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\RecipeDbContext.cs",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\RecipeDbContext.cs",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\RecipeDbContext.cs",
-              "RelativeToolTip": "YourRecipeWebsite\\Data\\RecipeDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:13:10.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\appsettings.json",
-              "RelativeDocumentMoniker": "YourRecipeWebsite\\appsettings.json",
-              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\appsettings.json",
-              "RelativeToolTip": "YourRecipeWebsite\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-21T07:13:10.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "FavoriteRecipe.cs",
               "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\Entities\\FavoriteRecipe.cs",
               "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\Entities\\FavoriteRecipe.cs",
@@ -272,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "YourRecipeWebsite\\Views\\Home\\Index.cshtml",
@@ -282,6 +238,65 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-21T07:13:10.97Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "YourRecipeWebsite\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwE0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T07:13:10.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Program.cs",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Program.cs",
+              "RelativeToolTip": "YourRecipeWebsite\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:13:10.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Recipes.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeDb/True/SqlTable/dbo.Recipes.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecipeDb/True/SqlTable/dbo.Recipes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-21T10:22:15.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RecipeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\RecipeDbContext.cs",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\Data\\RecipeDbContext.cs",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\Data\\RecipeDbContext.cs",
+              "RelativeToolTip": "YourRecipeWebsite\\Data\\RecipeDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:13:10.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\appsettings.json",
+              "RelativeDocumentMoniker": "YourRecipeWebsite\\appsettings.json",
+              "ToolTip": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\appsettings.json",
+              "RelativeToolTip": "YourRecipeWebsite\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T07:13:10.959Z"
             }
           ]
         }

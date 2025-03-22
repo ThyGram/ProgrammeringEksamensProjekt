@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using YourRecipeWebsite.Data;
 using YourRecipeWebsite.Data.Entities;
+using YourRecipeWebsite.Migrations;
 using YourRecipeWebsite.Models;
 
 namespace YourRecipeWebsite.Controllers;
@@ -20,6 +21,59 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         return View();
+    }
+
+    public IActionResult Account(int UserID, bool login)
+    {
+        UsersFavoriteRecipes result = new UsersFavoriteRecipes(); // Class is only used for this and is not a database.
+
+        List<User> Users = _context.Users.ToList();
+
+        List<FavoriteRecipe> UsersFavoriteRecipes = _context.FavoriteRecipes.ToList();
+        List<FavoriteRecipe> FavoriteRecipes = new List<FavoriteRecipe>();
+        for (int i = 0; i < UsersFavoriteRecipes.Count(); i++)
+        {
+            if (UsersFavoriteRecipes[i].User.Id == UserID)
+            {
+                FavoriteRecipes.Add(UsersFavoriteRecipes[i]);
+            }
+        }
+
+        result.Users = Users;
+        result.FavoriteRecipes = FavoriteRecipes;
+        if (login == true)
+        {
+            result.Login = login;
+        }
+        else
+        {
+            result.Login = false;
+        }
+            return View(result);
+    }
+
+    public IActionResult Account2(string email, string firstname, string lastname, string phonenumber)
+    {
+        int integerPhonennumber = int.Parse(phonenumber);
+
+        User User = new User();
+
+        if (email != null)
+        {
+            User.Email = email;
+            User.Firstname = firstname;
+            User.Lastname = lastname;
+            User.Phonenumber = integerPhonennumber;
+
+            if (User != null)
+            {
+                _context.Users.AddRange(User);
+            }
+        }
+        int UserID = User.Id;
+        _context.SaveChanges();
+
+        return RedirectToAction("Account", UserID);
     }
 
     public IActionResult Index2(string mealName, string mealPNG)
@@ -54,16 +108,41 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Recipes()
+    public IActionResult AlterRecipes()
+    {
+        List<Recipe> allRec = _context.Recipes.ToList();
+        return View(allRec);
+    }
+
+    public IActionResult Recipes(string MealId)
     {
         List<Recipe> result = _context.Recipes.ToList();
+        List<List<Recipe>> tester = new List<List<Recipe>>();
+        List<Recipe> allRec = new List<Recipe>();
+        if (MealId != null)
+        {
+            string[] arrayMealId = MealId.Split(",");
 
-        return View(result);
+            for (int i = 0; i < arrayMealId.Length; i++)
+            {
+                var recipe = _context.Recipes.Find(int.Parse(arrayMealId[i]));
+                allRec.Add(recipe);
+            }
+            tester.Add(allRec);
+            tester.Add(result);
+            return View(tester);
+        }
+        else
+        {
+            tester.Add(allRec);
+            tester.Add(result);
+            return View(tester);
+        }
+            
     }
 
     public IActionResult SpecificRecipe(string Category, string Area, string Instructions, string Ingredients, int id)
     {
-        Recipe r = new Recipe();
         _context.Database.EnsureCreated();
 
         var recipe = _context.Recipes.Find(id);

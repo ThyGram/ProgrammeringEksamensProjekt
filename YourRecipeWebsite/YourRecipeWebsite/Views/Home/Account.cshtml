@@ -1,0 +1,75 @@
+﻿@model UsersFavoriteRecipes
+@{
+    string AllUserEmails = "";
+    string AllUserIds = "";
+    if (Model != null)
+    {
+        for (int i = 0; i < Model.Users.Count(); i++)
+        {
+            if (i == Model.Users.Count() - 1)
+            {
+                AllUserEmails += Model.Users[i].Email;
+                AllUserIds += Model.Users[i].Id;
+            }
+            else
+            {
+                AllUserEmails += Model.Users[i].Email + ", ";
+                AllUserIds += Model.Users[i].Id + ", ";
+            }
+        }
+    }
+    List<FavoriteRecipe> Recipes = Model.FavoriteRecipes;
+}
+<head>
+    <script src="~/js/fetchAPI.js"></script>
+    <!-- <script>
+    window.onload = function IsUserLoggedIn(){
+    var LoggedIn = JSON.parse(localStorage.getItem("LoggedIn"));
+    if (LoggedIn != true) {
+    document.getElementById("MakeAccount").style.display = "block";
+    document.getElementById("AccountMade").style.display = "none";
+    }
+    else {
+    document.getElementById("MakeAccount").style.display = "none";
+    document.getElementById("AccountMade").style.display = "block";
+    }
+    };
+    </script>-->
+</head>
+
+<body>
+    @if(Model.Login == false)
+    {
+        <h1 id="AccountHeader">Make an account to favorite the best recipes or login to see your favorites!</h1>
+        <h2>We will make a newsletter in the near future so STAY TUNED!</h2>
+        <p>Fill all boxes and make your account, but if you already have an account just insert your Email and click login</p>
+        <input id="Email" placeholder="Email..">
+        <input id="Firstname" placeholder="Firstname..">
+        <input id="Lastname" placeholder="Lastname..">
+        <input id="Phonenumber" placeholder="Phone number..">
+        <button onclick="AddUser('@AllUserEmails')">Make Account</button>
+        <button onclick="Login('@AllUserEmails', '@AllUserIds')">Login to your Account</button>
+
+    }
+
+    @if(Model.Login == true)
+    {
+        <h1>Welcome to your favorite recipes</h1>
+
+        @for (int i = 0; i < Model.FavoriteRecipes.Count(); i++)
+        {
+            <button onclick="GetMealInfo('@Recipes[i].Recipe.Mealname', '@Recipes[i].Recipe.Id')">
+                <div class="recipes">
+                    <img src=@Recipes[i].Recipe.MealPNG alt=@Recipes[i].Recipe.Mealname />
+                    <div class="recipename">@Recipes[i].Recipe.Mealname</div>
+                </div>
+            </button>
+        }
+
+    }
+
+    
+        
+
+
+</body>

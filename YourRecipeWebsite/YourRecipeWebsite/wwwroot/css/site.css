@@ -33,9 +33,8 @@ body {
 .recipes{
     position: relative;
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
     width: 200px;
-
 }
 
     .recipes .recipename {
@@ -47,12 +46,12 @@ body {
         font-size: 14px;
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px; /* Adjust padding as needed */
-        width: 90%; /* Ensure text fits within the container */
-        text-align: center; /* Center the text horizontally */
-        box-sizing: border-box; /* Include padding in the width calculation */
-        word-wrap: break-word; /* Allow long words to break and wrap */
-        white-space: normal; /* Allow text to wrap */
+        padding: 10px;
+        width: 90%;
+        text-align: center;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        white-space: normal;
     }
 
 .recipes:hover {
@@ -70,4 +69,64 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+
+/* FOLLOWING CODE TAKEN FROM https://www.freecodecamp.org/news/how-to-build-a-dropdown-menu-with-javascript/ */
+
+.btn {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: var(--gap);
+    padding: 0.6rem;
+    cursor: pointer;
+    border-radius: var(--radius);
+    border: none;
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.bx {
+    font-size: 1.1rem;
+}
+
+.dropdown {
+    position: absolute;
+    width: 250px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    margin-top: 0.3rem;
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0.5rem);
+    transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+}
+
+.dropdown a {
+  display: flex;
+  align-items: center;
+  column-gap: var(--gap);
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown a:hover {
+  background-color: var(--color);
+  color: white;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0rem);
+}
+
+.arrow {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
 }

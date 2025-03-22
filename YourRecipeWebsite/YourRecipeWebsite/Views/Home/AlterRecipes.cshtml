@@ -1,0 +1,82 @@
+﻿@model List<Recipe>
+@{
+    ViewData["Title"] = "Our RECIPESS";
+    string recipesName = "";
+    string recipesPNG = "";
+    string recipesCategory = "";
+    string recipesArea = "";
+    string recipesInstructions = "";
+    string recipesIngredients = "";
+
+    for (int i = 0; i < Model.Count(); i++)
+    {
+        if (i == Model.Count() - 1)
+        {
+            recipesName += Model[i].Mealname;
+            recipesPNG += Model[i].MealPNG;
+            recipesCategory += Model[i].Category;
+            recipesArea += Model[i].Area;
+            recipesInstructions += Model[i].Instructions;
+            recipesIngredients += Model[i].Ingredients;
+
+        }
+        else
+        {
+            recipesName += Model[i].Mealname + ", ";
+            recipesPNG += Model[i].MealPNG + ", ";
+            recipesCategory += Model[i].Category + ", ";
+            recipesArea += Model[i].Area + ", ";
+            recipesInstructions += Model[i].Instructions + ", ";
+            recipesIngredients += Model[i].Ingredients + ", ";
+        }
+
+    }
+}
+
+<head>
+    <script src="~/js/fetchAPI.js"></script>
+</head>
+
+<body>
+    <div id="LoginAsAdmin" style="display: block">
+        <h1 id="AdminHeader">Use the admin login to be allowed to alter the recipes</h1>
+        <h3>Later it will be possible to submit suggestiongs, that we will review and add if they are adequate</h3>
+        <input id="AdminUsername" placeholder="AdminUsername..">
+        <input id="AdminPassword" placeholder="AdminPassword..">
+        <button onclick="AdminLogin()">Login</button>
+    </div>
+
+
+    <div id="AdminLoggedin" style="display: none">
+        <h1>Change, add or remove a recipe from the database</h1>
+        <label for="MealName">Choose a meal you'd like to change</label>
+        <p>If a meal is missing from the list, open the meal to add it to the database!</p>
+        <select name="MealName" id="MealName" onchange="ChangeMeal()">
+            @foreach (Recipe item in Model)
+            {
+                @if (item.Ingredients != null)
+                {
+                    <option value="@item.Mealname" id="@item.Mealname" name="@item.Mealname" data-PNG="@item.MealPNG" data-category="@item.Category" data-area="@item.Area" data-instructions="@item.Instructions" data-ingredients="@item.Ingredients">
+                        @item.Mealname
+                    </option>
+                }
+                
+            }
+        </select>
+        <br />
+        <input id="Name" placeholder="Name" style="width:auto">
+        <br />
+        <input id="PNG" placeholder="PNG" style="width:auto">
+        <br />
+        <input id="Category" placeholder="Category" style="width:auto">
+        <br />
+        <input id="Area" placeholder="Area" style="width:auto">
+        <br />
+        <input id="Instructions" placeholder="Instructions" style="width:auto">
+        <br />
+        <input id="Ingredients" placeholder="Ingredients" style="width:auto">
+
+    </div>
+    
+</body>
+
