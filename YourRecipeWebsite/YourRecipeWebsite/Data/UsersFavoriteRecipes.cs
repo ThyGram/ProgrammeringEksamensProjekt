@@ -9,5 +9,7 @@ namespace YourRecipeWebsite.Data
         public List<FavoriteRecipe> FavoriteRecipes { get; set; }
 
         public bool Login { get; set; }
+
+        public bool OpenedOnce { get; set; }
     }
 }

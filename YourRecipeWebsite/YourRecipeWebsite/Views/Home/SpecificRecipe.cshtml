@@ -1,32 +1,84 @@
-﻿@model Recipe
+﻿@model RecipeAndIsRecipeFavorite
 @{
     ViewData["Title"] = "Our RECIPESS";
-    string[] IngredientsArray = Model.Ingredients.Split("，︀");
+    string[] IngredientsArray = Model.Recipe.Ingredients.Split(",");
 }
 
 <head>
     <script src="~/js/fetchAPI.js"></script>
+    <script>
+        function favoritebtnclick(){
+        if (sessionStorage.getItem("User") != null){
+            if (document.getElementById("heart").className == "heart"){
+        document.getElementById("heart").className = "redheart";
+        addFavorite(sessionStorage.getItem("User"), '@Model.Recipe.Id');
+        }
+        else if (document.getElementById("heart").className == "redheart"){
+        document.getElementById("heart").className = "heart";
+        removeFavorite('@Model.favoriteId');
+        }
+        }
+        else {
+            document.getElementById("heart").innerHTML = "Please login to favorite recipes";
+        }
+        
+        }
+    </script>
+    <style>
+        .favoritebtn {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        }
+
+        .heart {
+        color: gray;
+        font-size: 50px;
+        transition: color 0,3s ease;
+        }
+
+        .redheart{
+        color: red;
+        font-size: 50px;
+        transition: color 0,3s ease;
+        }
+
+    </style>
+
+    
+
 </head>
 
-<body>
+<body style="background-color: papayawhip">
     <div class="container">
-        <h1>@Model.Mealname</h1>
-
+        <h1>@Model.Recipe.Mealname</h1>
+        <div id="favoritebtn" class="favoritebtn">
+            <button class="favoritebtn" onclick="favoritebtnclick()">
+                <span id="heart" class="heart">&#9829;</span>
+            </button>
+        </div>
+        @if (Model.Favorite == true)
+        {
+            <script>
+                document.getElementById("heart").className = "redheart";
+            </script>
+        }
         <div class="row">
             <div class="col-md-6">
                 <h3>Category</h3>
-                <p>@Model.Category</p>
+                <p>@Model.Recipe.Category</p>
             </div>
             <div class="col-md-6">
                 <h3>Area</h3>
-                <p>@Model.Area</p>
+                <p>@Model.Recipe.Area</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
                 <h3>Instructions</h3>
-                <p>@Model.Instructions</p>
+                <p>@Model.Recipe.Instructions</p>
             </div>
         </div>
 
@@ -41,11 +93,10 @@
                                 <p>@IngredientsArray[i]</p>
                         </li>
                     }
-
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="@Model.MealPNG" alt="@Model.Mealname"/>
+                <img src="@Model.Recipe.MealPNG" alt="@Model.Recipe.Mealname"/>
             </div>
         </div>
     </div>

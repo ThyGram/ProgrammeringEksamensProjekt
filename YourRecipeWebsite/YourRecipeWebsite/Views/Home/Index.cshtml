@@ -1,10 +1,43 @@
-﻿@{
+﻿@model List<Recipe>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<script src='~/js/fetchAPI.js'></script>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<head>
+    <script src='~/js/fetchAPI.js'></script>
+    <style>
+        .undertitel{
+            text-align: center;
+            font-size: 25px;
+            background-color: floralwhite;
+        }
+    </style>
+    
+
+</head>
+<body style="background-color: papayawhip">
+    <div class="text-center">
+    <h1 class="display-4">Your Recipes</h1>
+    <br />
+
+    <p class="undertitel">
+        Your Recipes is a new website, where you can see some new recipes and make them! <br /> 
+        The recipes come from the api themealdb.com <br />
+        Here are 3 recipes from our website
+    </p>
+    <br />
+    @for (int i = 0; i < 3; i++)
+    {
+            <button class="recipebtn" onclick="GetMealInfo('@Model[i].Mealname', '@Model[i].Id')">
+            <div class="recipes">
+                <img src=@Model[i].MealPNG alt=@Model[i].Mealname />
+                <div class="recipename">@Model[i].Mealname</div>
+            </div>
+        </button>
+    }
+    
 </div>
+</body>
+

@@ -1,5 +1,7 @@
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using YourRecipeWebsite.Data;
 using YourRecipeWebsite.Data.Entities;
 using YourRecipeWebsite.Migrations;
@@ -20,16 +22,17 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        List<Recipe> recipes = _context.Recipes.ToList();
+        return View(recipes);
     }
 
-    public IActionResult Account(int UserID, bool login)
+    public IActionResult Account(int UserID, bool login, bool OpenedOnce)
     {
         UsersFavoriteRecipes result = new UsersFavoriteRecipes(); // Class is only used for this and is not a database.
 
         List<User> Users = _context.Users.ToList();
 
-        List<FavoriteRecipe> UsersFavoriteRecipes = _context.FavoriteRecipes.ToList();
+        List<FavoriteRecipe> UsersFavoriteRecipes = _context.FavoriteRecipes.Include(fr => fr.Recipe).Include(fr => fr.User).ToList();
         List<FavoriteRecipe> FavoriteRecipes = new List<FavoriteRecipe>();
         for (int i = 0; i < UsersFavoriteRecipes.Count(); i++)
         {
@@ -49,6 +52,16 @@ public class HomeController : Controller
         {
             result.Login = false;
         }
+
+        if (OpenedOnce != true)
+        {
+            result.OpenedOnce = false;
+        }
+        else
+        {
+            result.OpenedOnce = OpenedOnce;
+        }
+
             return View(result);
     }
 
@@ -103,7 +116,7 @@ public class HomeController : Controller
       
         
     }
-    public IActionResult Privacy()
+    public IActionResult About()
     {
         return View();
     }
@@ -141,13 +154,14 @@ public class HomeController : Controller
             
     }
 
-    public IActionResult SpecificRecipe(string Category, string Area, string Instructions, string Ingredients, int id)
+    public IActionResult SpecificRecipe(string Category, string Area, string Instructions, string Ingredients, int recipeId, int userId)
     {
+        List<Recipe> allRec = _context.Recipes.ToList();
         _context.Database.EnsureCreated();
-
-        var recipe = _context.Recipes.Find(id);
+        RecipeAndIsRecipeFavorite result = new RecipeAndIsRecipeFavorite();
+        Recipe recipe = _context.Recipes.Find(recipeId);
         
-        if (recipe != null)
+        if (recipe != null && Category != "no")
         {
             recipe.Category = Category;
             recipe.Area = Area;
@@ -155,9 +169,55 @@ public class HomeController : Controller
             recipe.Ingredients = Ingredients;
         }
 
+        List<FavoriteRecipe> favoriterecipes = _context.FavoriteRecipes.Include(fr => fr.Recipe).Include(fr => fr.User).ToList();
+
+        for (int i = 0; i < favoriterecipes.Count(); i++)
+        {
+            if (favoriterecipes[i].Recipe.Id == recipeId && favoriterecipes[i].User.Id == userId)
+            {
+                result.Favorite = true;
+                result.favoriteId = favoriterecipes[i].Id;
+            }
+        }
+        result.Recipe = recipe;
         _context.SaveChanges();
 
-        return View(recipe);
+        return View(result);
+    }
+
+    public IActionResult AddFavorite(int userId, int recipeId)
+    {
+        _context.Database.EnsureCreated();
+        FavoriteRecipe favRec = new FavoriteRecipe();
+        Recipe Recipe = _context.Recipes.Find(recipeId);
+        if (Recipe != null)
+        {
+            favRec.Recipe = Recipe;
+        }
+        User User = _context.Users.Find(userId);
+        if (User != null)
+        {
+            favRec.User = User;
+        }
+
+        _context.FavoriteRecipes.Add(favRec);
+        _context.SaveChanges();
+
+
+        return RedirectToAction("SpecificRecipe", new { Category = "no", recipeId = recipeId, userId = userId });
+    }
+
+    public IActionResult RemoveFavorite(int favoriteRecipeId)
+    {
+        _context.Database.EnsureCreated();
+        FavoriteRecipe favRec = new FavoriteRecipe();
+        favRec = _context.FavoriteRecipes.Include(fr => fr.Recipe).Include(fr => fr.User).FirstOrDefault(fr => fr.Id == favoriteRecipeId);
+        _context.FavoriteRecipes.Remove(favRec);
+        
+        _context.SaveChanges();
+
+
+        return RedirectToAction("SpecificRecipe", (new { Category = "no", recipeId = favRec.Recipe.Id, userId = favRec.User.Id }));
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -30,11 +30,18 @@ body {
   text-align: start;
 }
 
-.recipes{
+.recipebtn{
+    background-color: papayawhip;
+    border-color: transparent;
+}
+
+/* Inspiration for the styles about the recipes taken from https://www.w3schools.com/howto/howto_css_image_text.asp */
+.recipes {
     position: relative;
     display: inline-block;
     margin: 10px;
     width: 200px;
+    transition: transform 0.2s ease-in-out;
 }
 
     .recipes .recipename {
@@ -46,87 +53,18 @@ body {
         font-size: 14px;
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px;
-        width: 90%;
         text-align: center;
-        box-sizing: border-box;
         word-wrap: break-word;
-        white-space: normal;
+        padding: 5px;
+        width: 90%;
     }
 
 .recipes:hover {
-
+    transform: scale(1.1)
 }
 
 .recipes img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-/* FOLLOWING CODE TAKEN FROM https://www.freecodecamp.org/news/how-to-build-a-dropdown-menu-with-javascript/ */
-
-.btn {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    column-gap: var(--gap);
-    padding: 0.6rem;
-    cursor: pointer;
-    border-radius: var(--radius);
-    border: none;
-    box-shadow: var(--shadow);
-    position: relative;
-}
-
-.bx {
-    font-size: 1.1rem;
-}
-
-.dropdown {
-    position: absolute;
-    width: 250px;
-    box-shadow: var(--shadow);
-    border-radius: var(--radius);
-    margin-top: 0.3rem;
-    background: white;
-    visibility: hidden;
-    opacity: 0;
-    transform: translateY(0.5rem);
-    transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
-}
-
-.dropdown a {
-  display: flex;
-  align-items: center;
-  column-gap: var(--gap);
-  padding: 0.8rem 1rem;
-  text-decoration: none;
-  color: black;
-}
-
-.dropdown a:hover {
-  background-color: var(--color);
-  color: white;
-}
-
-.show {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0rem);
-}
-
-.arrow {
-  transform: rotate(180deg);
-  transition: 0.2s ease;
 }
