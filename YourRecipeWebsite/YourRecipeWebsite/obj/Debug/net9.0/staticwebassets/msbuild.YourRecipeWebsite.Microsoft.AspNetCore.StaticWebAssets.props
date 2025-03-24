@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8fontkzzlo</Fingerprint>
-      <Integrity>ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk=</Integrity>
+      <Fingerprint>ooeo5fld62</Fingerprint>
+      <Integrity>qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fetchAPI.js'))</OriginalItemSpec>

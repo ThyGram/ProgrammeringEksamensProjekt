@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pz20dzQdW3bBvP7sCOkxFcBPJrjcZJpD5VVhUBclJYc=",
+  "Hash": "5wUtoaDe7J1GxcqWx0k1xxaDqdwl+08pxg6tvoA2NMs=",
   "Source": "YourRecipeWebsite",
   "BasePath": "_content/YourRecipeWebsite",
   "Mode": "Default",
@@ -941,12 +941,12 @@
       "OriginalItemSpec": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-8fontkzzlo.gz",
+      "Identity": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-ooeo5fld62.gz",
       "SourceId": "YourRecipeWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/YourRecipeWebsite",
-      "RelativePath": "js/fetchAPI#[.{fingerprint=8fontkzzlo}]?.js.gz",
+      "RelativePath": "js/fetchAPI#[.{fingerprint=ooeo5fld62}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -955,8 +955,8 @@
       "RelatedAsset": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "co5ax3iinf",
-      "Integrity": "PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M=",
+      "Fingerprint": "dafpv2s96b",
+      "Integrity": "Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8fontkzzlo",
-      "Integrity": "ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk=",
+      "Fingerprint": "ooeo5fld62",
+      "Integrity": "qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\fetchAPI.js"
@@ -3366,13 +3366,13 @@
       ]
     },
     {
-      "Route": "js/fetchAPI.8fontkzzlo.js",
-      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-8fontkzzlo.gz",
+      "Route": "js/fetchAPI.js",
+      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-ooeo5fld62.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000397140588"
+          "Quality": "0.000368731563"
         }
       ],
       "ResponseHeaders": [
@@ -3382,19 +3382,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2517"
+          "Value": "2711"
         },
         {
           "Name": "ETag",
-          "Value": "\"PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M=\""
+          "Value": "\"Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 19:13:27 GMT"
+          "Value": "Mon, 24 Mar 2025 15:39:06 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3410,26 +3410,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk=\""
+          "Value": "W/\"qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "8fontkzzlo"
-        },
-        {
-          "Name": "label",
-          "Value": "js/fetchAPI.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk="
+          "Value": "sha256-qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg="
         }
       ]
     },
     {
-      "Route": "js/fetchAPI.8fontkzzlo.js",
+      "Route": "js/fetchAPI.js",
       "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3439,7 +3431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10547"
+          "Value": "11891"
         },
         {
           "Name": "Content-Type",
@@ -3447,11 +3439,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk=\""
+          "Value": "\"qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 19:13:27 GMT"
+          "Value": "Mon, 24 Mar 2025 15:39:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg="
+        }
+      ]
+    },
+    {
+      "Route": "js/fetchAPI.js.gz",
+      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-ooeo5fld62.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:39:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s="
+        }
+      ]
+    },
+    {
+      "Route": "js/fetchAPI.ooeo5fld62.js",
+      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-ooeo5fld62.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000368731563"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2711"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:39:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ooeo5fld62"
+        },
+        {
+          "Name": "label",
+          "Value": "js/fetchAPI.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg="
+        }
+      ]
+    },
+    {
+      "Route": "js/fetchAPI.ooeo5fld62.js",
+      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:39:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3461,7 +3598,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8fontkzzlo"
+          "Value": "ooeo5fld62"
         },
         {
           "Name": "label",
@@ -3469,13 +3606,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk="
+          "Value": "sha256-qE5rX1XFXzftJgDP/Jw/QM4a0u/rkz04eI5alZvicJg="
         }
       ]
     },
     {
-      "Route": "js/fetchAPI.8fontkzzlo.js.gz",
-      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-8fontkzzlo.gz",
+      "Route": "js/fetchAPI.ooeo5fld62.js.gz",
+      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-ooeo5fld62.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3484,7 +3621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2517"
+          "Value": "2711"
         },
         {
           "Name": "Content-Type",
@@ -3492,11 +3629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M=\""
+          "Value": "\"Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 19:13:27 GMT"
+          "Value": "Mon, 24 Mar 2025 15:39:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3514,7 +3651,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8fontkzzlo"
+          "Value": "ooeo5fld62"
         },
         {
           "Name": "label",
@@ -3522,144 +3659,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetchAPI.js",
-      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-8fontkzzlo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000397140588"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2517"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 19:13:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetchAPI.js",
-      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 19:13:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZNhD5sis4kcu2bzD1kYCBrfm5CkemyXxr+1HHzga3Fk="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetchAPI.js.gz",
-      "AssetFile": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\Debug\\net9.0\\compressed\\me2ptwiqok-8fontkzzlo.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 19:13:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PIh3ompGZfhpZcXw0whv2iXjSux+QbRHl8KWQoyiJ6M="
+          "Value": "sha256-Wx/2nDKzYeafCNqsW+Hjv31poA10hxIPNGn0odTRu8s="
         }
       ]
     },

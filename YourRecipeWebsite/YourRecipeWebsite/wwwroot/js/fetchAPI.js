@@ -44,13 +44,12 @@ function getMealName(categoryArray)
     }
 }
 
-function GetMealInfo(mealName, id)
-{
+function GetMealInfo(mealName, id, index) {
     console.log(mealName)
     mealName = mealName.replace("，︀", ", ") // Add comma again, to search for the proper meal name
     mealName = mealName.replace("aƞd", "&") // Add comma again, to search for the proper meal name
     let isAlreadyFetched2 = localStorage.getItem(mealName)
-    if (isAlreadyFetched2 != "true" || isAlreadyFetched2 == null) {
+    if (isAlreadyFetched2 != "true") {
         let url3 = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealName
         GetRequest(url3)
             .then(data => {
@@ -66,12 +65,32 @@ function GetMealInfo(mealName, id)
                 Instructions = ReplaceSpecificSymbols(Instructions);
                 Ingredients = ReplaceSpecificSymbols(Ingredients);
 
-                window.location.href = "SpecificRecipe?Category=" + Category + "&Area=" + Area + "&Instructions=" + Instructions + "&Ingredients=" + Ingredients + "&recipeId=" + id + "&userId=" + sessionStorage.getItem("User");
+                let userid = sessionStorage.getItem("User")
+                if (userid == null) {
+                    userid = 0
+                }
+                if (index) {
+                    window.location.href = "Home/SpecificRecipe?Category=" + Category + "&Area=" + Area + "&Instructions=" + Instructions + "&Ingredients=" + Ingredients + "&recipeId=" + id + "&userId=" + userid;
+                }
+                else {
+                    window.location.href = "SpecificRecipe?Category=" + Category + "&Area=" + Area + "&Instructions=" + Instructions + "&Ingredients=" + Ingredients + "&recipeId=" + id + "&userId=" + userid;
+
+                }
             })
             .catch(err => console.error(err));
     }
     else if (isAlreadyFetched2 == "true") {
-        window.location.href = "SpecificRecipe?Category=" + "no" + "&Area=" + "" + "&Instructions=" + "" + "&Ingredients=" + "" + "&recipeId=" + id + "&userId=" + sessionStorage.getItem("User");
+        let userid = sessionStorage.getItem("User")
+        if (userid == null) {
+            userid = 0
+        }
+        if (index) {
+            window.location.href = "Home/SpecificRecipe?Category=" + "no" + "&Area=" + "" + "&Instructions=" + "" + "&Ingredients=" + "" + "&recipeId=" + id + "&userId=" + userid;
+        }
+        else {
+            window.location.href = "SpecificRecipe?Category=" + "no" + "&Area=" + "" + "&Instructions=" + "" + "&Ingredients=" + "" + "&recipeId=" + id + "&userId=" + userid;
+        }
+        
     }
 }
             
@@ -100,7 +119,7 @@ function IngredientsForMeal(data)
     for (let i = 1; i < 21; i++) {
         let ingre = data[0][`strIngredient${i}`]
         let measu = data[0][`strMeasure${i}`]
-        if ((ingre != null && ingre && ingre.length != 0 && ingre != undefined)  || (measu != null && measu != undefined && measu.length != 0)) {
+        if ((ingre != null && ingre && ingre.length > 1 && ingre != undefined)  || (measu != null && measu != undefined && measu.length > 1)) {
             AllIngredientsArray.push(ingre + " " + measu)
         }
     }
@@ -123,6 +142,8 @@ function ReplaceSpecificSymbols(MealNames)
     }
     return MealNames;
 }
+
+// EVERYTHING BELOW ARE FUNCTIONS USED FOR THE RAZOR VIEWS
 
 function Search(RecipeNames, Id)
 {
@@ -244,7 +265,7 @@ function AdminLogin() {
     UsernameInput = document.getElementById("AdminUsername").value;
     PasswordInput = document.getElementById("AdminPassword").value;
 
-    if (UsernameInput == "AdminMan" && PasswordInput == "") {
+    if (UsernameInput == "Admin" && PasswordInput == "") {
         document.getElementById("LoginAsAdmin").style.display = "none"
         document.getElementById("AdminLoggedin").style.display = "block"
     }
@@ -272,7 +293,13 @@ function ChangeMealShow() {
 }
 
 function ChangeMeal() {
-
+    let name = document.getElementById("Name").value
+    let PNG = document.getElementById("PNG").value
+    let Cat = document.getElementById("Category").value
+    let Area = document.getElementById("Area").value
+    let Instruc = document.getElementById("Instructions").value
+    let Ingredi = document.getElementById("Ingredients").value
+    window.location.href = "ChangeRecipe?mealName=" + name + "&mealPNG=" + PNG + "&Category=" + Cat + "&Area=" + Area + "&Instructions=" + Instruc + "&Ingredients=" + Ingredi;
 }
 
 function addFavorite(UserId, RecipeId) {

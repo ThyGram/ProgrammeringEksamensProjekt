@@ -26,6 +26,34 @@ public class HomeController : Controller
         return View(recipes);
     }
 
+    public IActionResult Index2(string mealName, string mealPNG)
+    {
+        string[] arrayMealName = mealName.Split(",");
+        string[] arrayMealPNG = mealPNG.Split(",");
+        _context.Database.EnsureCreated();
+
+        List<Recipe> allRec = new List<Recipe>();
+        for (int i = 0; i < arrayMealName.Length; i++)
+        {
+            Recipe r = new Recipe();
+            r.MealPNG = arrayMealPNG[i];
+            r.Mealname = arrayMealName[i];
+            allRec.Add(r);
+        }
+        if (!_context.Recipes.Any())
+        {
+            if (allRec != null)
+            {
+                _context.Recipes.AddRange(allRec);
+            }
+        }
+        _context.SaveChanges();
+
+        return RedirectToAction("Index");
+
+
+    }
+
     public IActionResult Account(int UserID, bool login, bool OpenedOnce)
     {
         UsersFavoriteRecipes result = new UsersFavoriteRecipes(); // Class is only used for this and is not a database.
@@ -89,33 +117,7 @@ public class HomeController : Controller
         return RedirectToAction("Account", UserID);
     }
 
-    public IActionResult Index2(string mealName, string mealPNG)
-    {
-        string[] arrayMealName = mealName.Split(",");
-        string[] arrayMealPNG = mealPNG.Split(",");
-        _context.Database.EnsureCreated();
 
-        List<Recipe> allRec = new List<Recipe>();
-        for (int i = 0; i < arrayMealName.Length; i++)
-        {
-            Recipe r = new Recipe();
-            r.MealPNG = arrayMealPNG[i];
-            r.Mealname = arrayMealName[i];
-            allRec.Add(r);
-        }
-        if (!_context.Recipes.Any())
-        {
-            if (allRec != null)
-            {
-                _context.Recipes.AddRange(allRec);
-            }
-        }
-        _context.SaveChanges();
-
-        return RedirectToAction("Index");
-      
-        
-    }
     public IActionResult About()
     {
         return View();
@@ -218,6 +220,34 @@ public class HomeController : Controller
 
 
         return RedirectToAction("SpecificRecipe", (new { Category = "no", recipeId = favRec.Recipe.Id, userId = favRec.User.Id }));
+    }
+
+    public IActionResult ChangeRecipe(string mealName, string mealPNG, string Category, string Area, string Instructions, string Ingredients)
+    {
+        List<Recipe> Recipes = _context.Recipes.ToList();
+        int mealId = 0;
+
+        for (int i = 0; i < Recipes.Count(); i++)
+        {
+            if (Recipes[i].Mealname == mealName)
+            {
+                mealId = Recipes[i].Id;
+            }
+        }
+        Recipe ChosenRecipe = _context.Recipes.Find(mealId);
+
+        if (mealId > 0 && ChosenRecipe != null)
+        {
+            ChosenRecipe.MealPNG = mealPNG;
+            ChosenRecipe.Category = Category;
+            ChosenRecipe.Area = Area;
+            ChosenRecipe.Instructions = Instructions;
+            ChosenRecipe.Ingredients = Ingredients;
+        }
+
+        _context.SaveChanges();
+
+        return RedirectToAction("AlterRecipes");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
