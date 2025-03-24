@@ -20,7 +20,6 @@ C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\js\site.js
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -40,7 +39,6 @@ C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\js\fetchAPI.js
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
@@ -57,14 +55,14 @@ C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\js\AllJSCode.js
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\Theresa\Documents\GitHub\ProgrammeringEksamensProjekt\YourRecipeWebsite\YourRecipeWebsite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\fetchAPI.js
-wwwroot\js\site.js
+wwwroot\js\AllJSCode.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

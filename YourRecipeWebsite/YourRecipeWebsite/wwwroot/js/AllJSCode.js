@@ -119,7 +119,7 @@ function IngredientsForMeal(data)
     for (let i = 1; i < 21; i++) {
         let ingre = data[0][`strIngredient${i}`]
         let measu = data[0][`strMeasure${i}`]
-        if ((ingre != null && ingre && ingre.length > 1 && ingre != undefined)  || (measu != null && measu != undefined && measu.length > 1)) {
+        if ((ingre != null && ingre && ingre.length > 1 && ingre != undefined)  && (measu != null && measu != undefined && measu.length > 0 && measu != " ")) {
             AllIngredientsArray.push(ingre + " " + measu)
         }
     }

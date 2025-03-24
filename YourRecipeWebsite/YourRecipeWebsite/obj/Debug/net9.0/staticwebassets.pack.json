@@ -13,12 +13,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\fetchAPI.js",
-      "PackagePath": "staticwebassets\\js\\fetchAPI.js"
-    },
-    {
-      "Id": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\js\\AllJSCode.js",
+      "PackagePath": "staticwebassets\\js\\AllJSCode.js"
     },
     {
       "Id": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
