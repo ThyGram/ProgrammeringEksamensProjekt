@@ -35,25 +35,6 @@
 
 <head>
     <script src="~/js/AllJSCode.js"></script>
-
-    <script>
-                document.querySelectorAll("textarea").forEach(function(textarea) {
-          textarea.style.height = textarea.scrollHeight + "px";
-          textarea.style.overflowY = "hidden";
-
-          textarea.addEventListener("input", function() {
-            this.style.height = "auto";
-            this.style.height = this.scrollHeight + "px";
-          });
-        });
-    </script>
-
-    <style>
-        .inputboxAlotofText {
-            width: 800px;
-            height: 800px;
-        }
-    </style>
 </head>
 
 <body style="background-color: papayawhip">

@@ -11,11 +11,11 @@
         if (sessionStorage.getItem("User") != null){
             if (document.getElementById("heart").className == "heart"){
         document.getElementById("heart").className = "redheart";
-        addFavorite(sessionStorage.getItem("User"), '@Model.Recipe.Id');
+        AddFavorite(sessionStorage.getItem("User"), '@Model.Recipe.Id');
         }
         else if (document.getElementById("heart").className == "redheart"){
         document.getElementById("heart").className = "heart";
-        removeFavorite('@Model.favoriteId');
+        RemoveFavorite('@Model.favoriteId');
         }
         }
         else {

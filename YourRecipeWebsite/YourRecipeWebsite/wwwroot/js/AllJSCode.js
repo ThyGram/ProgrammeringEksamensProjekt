@@ -302,11 +302,11 @@ function ChangeMeal() {
     window.location.href = "ChangeRecipe?mealName=" + name + "&mealPNG=" + PNG + "&Category=" + Cat + "&Area=" + Area + "&Instructions=" + Instruc + "&Ingredients=" + Ingredi;
 }
 
-function addFavorite(UserId, RecipeId) {
+function AddFavorite(UserId, RecipeId) {
     window.location.href = "AddFavorite?userId=" + UserId + "&recipeId=" + RecipeId;
 }
 
-function removeFavorite(FavoriteRecipeId) {
+function RemoveFavorite(FavoriteRecipeId) {
     window.location.href = "RemoveFavorite?FavoriteRecipeId=" + FavoriteRecipeId;
 }
 
