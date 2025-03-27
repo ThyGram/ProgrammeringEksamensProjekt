@@ -47,7 +47,7 @@ public class HomeController : Controller
                 _context.Recipes.AddRange(allRec);
             }
         }
-        _context.SaveChanges();
+            _context.SaveChanges();
 
         return RedirectToAction("Index");
 

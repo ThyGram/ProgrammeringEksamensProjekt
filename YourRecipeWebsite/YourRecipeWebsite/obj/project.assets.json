@@ -4680,23 +4680,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Theresa\\.nuget\\packages\\": {},
+    "C:\\Users\\Willi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\YourRecipeWebsite.csproj",
+      "projectUniqueName": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\YourRecipeWebsite.csproj",
       "projectName": "YourRecipeWebsite",
-      "projectPath": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\YourRecipeWebsite.csproj",
-      "packagesPath": "C:\\Users\\Theresa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Theresa\\Documents\\GitHub\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\",
+      "projectPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\YourRecipeWebsite.csproj",
+      "packagesPath": "C:\\Users\\Willi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Willi\\Downloads\\ProgrammeringEksamensProjekt\\YourRecipeWebsite\\YourRecipeWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Theresa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
