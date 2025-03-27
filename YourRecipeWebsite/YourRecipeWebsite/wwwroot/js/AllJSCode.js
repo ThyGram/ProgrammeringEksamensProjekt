@@ -45,17 +45,17 @@ function getMealName(categoryArray)
 }
 
 function GetMealInfo(mealName, id, index) {
-    console.log(mealName)
-    mealName = mealName.replace("，︀", ", ") // Add comma again, to search for the proper meal name
-    mealName = mealName.replace("aƞd", "&") // Add comma again, to search for the proper meal name
-    let isAlreadyFetched2 = localStorage.getItem(mealName)
+    console.log(mealName);
+    mealName = mealName.replace("，︀", ", "); // Add comma again, to search for the proper meal name
+    mealName = mealName.replace("aƞd", "&"); // Add comma again, to search for the proper meal name
+    let isAlreadyFetched2 = localStorage.getItem(mealName);
     if (isAlreadyFetched2 != "true") {
-        let url3 = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealName
+        let url3 = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + mealName;
         GetRequest(url3)
             .then(data => {
-                let Category = data.meals[0].strCategory
-                let Area = data.meals[0].strArea
-                let Instructions = data.meals[0].strInstructions
+                let Category = data.meals[0].strCategory;
+                let Area = data.meals[0].strArea;
+                let Instructions = data.meals[0].strInstructions;
                 let Ingredients = IngredientsForMeal(data.meals);
 
                 localStorage.setItem(mealName, true);
@@ -65,9 +65,9 @@ function GetMealInfo(mealName, id, index) {
                 Instructions = ReplaceSpecificSymbols(Instructions);
                 Ingredients = ReplaceSpecificSymbols(Ingredients);
 
-                let userid = sessionStorage.getItem("User")
+                let userid = sessionStorage.getItem("User");
                 if (userid == null) {
-                    userid = 0
+                    userid = 0;
                 }
                 if (index) {
                     window.location.href = "Home/SpecificRecipe?Category=" + Category + "&Area=" + Area + "&Instructions=" + Instructions + "&Ingredients=" + Ingredients + "&recipeId=" + id + "&userId=" + userid;

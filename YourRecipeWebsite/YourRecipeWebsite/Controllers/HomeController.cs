@@ -60,7 +60,10 @@ public class HomeController : Controller
 
         List<User> Users = _context.Users.ToList();
 
+        // Der anvendes "Include" til at load relateret data, da uden at specificere hvilken data der hentes, returneret den null.
+        // Der blev anvendt følgende kilde til at forstå Include() https://stackoverflow.com/questions/26661771/what-does-include-do-in-linq
         List<FavoriteRecipe> UsersFavoriteRecipes = _context.FavoriteRecipes.Include(fr => fr.Recipe).Include(fr => fr.User).ToList();
+
         List<FavoriteRecipe> FavoriteRecipes = new List<FavoriteRecipe>();
         for (int i = 0; i < UsersFavoriteRecipes.Count(); i++)
         {
