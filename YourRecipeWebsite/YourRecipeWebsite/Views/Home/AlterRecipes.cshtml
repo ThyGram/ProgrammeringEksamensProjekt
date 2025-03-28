@@ -56,6 +56,7 @@
             {
                 @if (item.Ingredients != null)
                 {
+                    <!-- Each value in the dropdown menu. Value defines what is shown, and everything else is data stored in that <select>-->
                     <option value="@item.Mealname" id="@item.Mealname" name="@item.Mealname" data-PNG="@item.MealPNG" data-category="@item.Category" data-area="@item.Area" data-instructions="@item.Instructions" data-ingredients="@item.Ingredients">
                         @item.Mealname
                     </option>

@@ -28,6 +28,7 @@ public class HomeController : Controller
 
     public IActionResult Index2(string mealName, string mealPNG)
     {
+        // Add data to the database
         string[] arrayMealName = mealName.Split(",");
         string[] arrayMealPNG = mealPNG.Split(",");
         _context.Database.EnsureCreated();
@@ -75,6 +76,7 @@ public class HomeController : Controller
 
         result.Users = Users;
         result.FavoriteRecipes = FavoriteRecipes;
+        // Checks if the user is logged in, and if this code has run once.
         if (login == true)
         {
             result.Login = login;
@@ -102,6 +104,7 @@ public class HomeController : Controller
 
         User User = new User();
 
+        // Make a user and add it to the database.
         if (email != null)
         {
             User.Email = email;
@@ -173,7 +176,7 @@ public class HomeController : Controller
             recipe.Instructions = Instructions;
             recipe.Ingredients = Ingredients;
         }
-
+       
         List<FavoriteRecipe> favoriterecipes = _context.FavoriteRecipes.Include(fr => fr.Recipe).Include(fr => fr.User).ToList();
 
         for (int i = 0; i < favoriterecipes.Count(); i++)
@@ -189,7 +192,8 @@ public class HomeController : Controller
 
         return View(result);
     }
-
+    // Include is used to assure, that the data is loaded. Without it recipe nad user were null.
+    // Following source was used to understand include and why it could be a solution. https://stackoverflow.com/questions/26661771/what-does-include-do-in-linq 
     public IActionResult AddFavorite(int userId, int recipeId)
     {
         _context.Database.EnsureCreated();
@@ -216,7 +220,9 @@ public class HomeController : Controller
     {
         _context.Database.EnsureCreated();
         FavoriteRecipe favRec = new FavoriteRecipe();
-        favRec = _context.FavoriteRecipes.Include(fr => fr.Recipe).Include(fr => fr.User).FirstOrDefault(fr => fr.Id == favoriteRecipeId);
+        // To get only 1 value from the database we use FirstOrDefault(), which is another LinQ statement
+        // The source used to fin
+        favRec = _context.FavoriteRecipes.Include(p => p.Recipe).Include(p => p.User).FirstOrDefault(p => p.Id == favoriteRecipeId);
         _context.FavoriteRecipes.Remove(favRec);
         
         _context.SaveChanges();

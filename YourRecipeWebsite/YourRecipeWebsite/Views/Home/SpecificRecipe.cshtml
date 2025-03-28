@@ -7,6 +7,7 @@
 <head>
     <script src="~/js/AllJSCode.js"></script>
     <script>
+        // When this function is called, it checks, the current class of the heart, to see if the function is already favorited or not.
         function favoritebtnclick(){
         if (sessionStorage.getItem("User") != null){
             if (document.getElementById("heart").className == "heart"){
@@ -24,30 +25,6 @@
         
         }
     </script>
-    <style>
-        .favoritebtn {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        outline: none;
-        }
-
-        .heart {
-        color: gray;
-        font-size: 50px;
-        transition: color 0,3s ease;
-        }
-
-        .redheart{
-        color: red;
-        font-size: 50px;
-        transition: color 0,3s ease;
-        }
-
-    </style>
-
-    
-
 </head>
 
 <body style="background-color: papayawhip">
@@ -58,12 +35,15 @@
                 <span id="heart" class="heart">&#9829;</span>
             </button>
         </div>
+        <!-- If the recipe has been favorited by the user, make the heart red. -->
         @if (Model.Favorite == true)
         {
             <script>
                 document.getElementById("heart").className = "redheart";
             </script>
         }
+
+        <!-- Bootstrap grids used "col-md-6" soruce is https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp-->
         <div class="row">
             <div class="col-md-6">
                 <h3>Category</h3>
@@ -84,6 +64,7 @@
 
         <div class="row">
             <div class="col-md-6">
+                <
                 <h3>Ingredients</h3>
                 <ul>
                     @for (int i = 0; i < IngredientsArray.Length; i++)

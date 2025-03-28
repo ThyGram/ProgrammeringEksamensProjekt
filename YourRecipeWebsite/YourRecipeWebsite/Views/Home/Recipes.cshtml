@@ -5,6 +5,7 @@
     string recipesId = "";
     string recipesCategory = "";
     string recipesArea = "";
+    // Having two lists, so its possible to search and filter all recipes, even if the shown recipes are different.s
     List<Recipe> SearchRecipes = Model[0];
     List<Recipe> AllRecipes = Model[1];
 
@@ -100,6 +101,7 @@
     <button onclick="ResetFilters()"> Reset Filters </button>
 
     <br />
+    <!-- Shows all of the recipes from the database -->
     @for (int i = 0; i < AllRecipes.Count(); i++)
         {
         <button class="recipebtn" onclick="GetMealInfo('@AllRecipes[i].Mealname', '@AllRecipes[i].Id', false)">

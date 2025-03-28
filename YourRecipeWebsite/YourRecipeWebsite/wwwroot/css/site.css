@@ -68,3 +68,23 @@ body {
     height: auto;
     border-radius: 10px;
 }
+
+/* Style for the red heart */
+.favoritebtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.heart {
+    color: gray;
+    font-size: 50px;
+    transition: color 0,3s ease;
+}
+
+.redheart {
+    color: red;
+    font-size: 50px;
+    transition: color 0,3s ease;
+}
