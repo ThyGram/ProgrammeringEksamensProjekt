@@ -47,8 +47,8 @@ public class HomeController : Controller
             {
                 _context.Recipes.AddRange(allRec);
             }
-        }
             _context.SaveChanges();
+        }
 
         return RedirectToAction("Index");
 
@@ -164,8 +164,6 @@ public class HomeController : Controller
 
     public IActionResult SpecificRecipe(string Category, string Area, string Instructions, string Ingredients, int recipeId, int userId)
     {
-        List<Recipe> allRec = _context.Recipes.ToList();
-        _context.Database.EnsureCreated();
         RecipeAndIsRecipeFavorite result = new RecipeAndIsRecipeFavorite();
         Recipe recipe = _context.Recipes.Find(recipeId);
         
@@ -196,7 +194,6 @@ public class HomeController : Controller
     // Following source was used to understand include and why it could be a solution. https://stackoverflow.com/questions/26661771/what-does-include-do-in-linq 
     public IActionResult AddFavorite(int userId, int recipeId)
     {
-        _context.Database.EnsureCreated();
         FavoriteRecipe favRec = new FavoriteRecipe();
         Recipe Recipe = _context.Recipes.Find(recipeId);
         if (Recipe != null)
@@ -218,7 +215,6 @@ public class HomeController : Controller
 
     public IActionResult RemoveFavorite(int favoriteRecipeId)
     {
-        _context.Database.EnsureCreated();
         FavoriteRecipe favRec = new FavoriteRecipe();
         // To get only 1 value from the database we use FirstOrDefault(), which is another LinQ statement
         // The source used to fin
