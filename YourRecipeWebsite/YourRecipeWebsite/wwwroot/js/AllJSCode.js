@@ -179,7 +179,10 @@ function Search(RecipeNames, Id)
         }
     }
     window.location.href = "Recipes?mealID=" + RecipeIDwithTarget
+
+
 }
+   
 
 function FilterCategory(Categories, Id)
 {
